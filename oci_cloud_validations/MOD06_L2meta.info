@@ -1,0 +1,1577 @@
+data/MOD06_L2/Y2018/MOD06_L2/2018/213/MOD06_L2.A2018213.0000.061.2018213135055.hdf
+[Meta.0]HDFEOSVersion
+	HDFEOS_V2.19
+[Meta.1]StructMetadata.0
+	GROUP=SwathStructure
+	GROUP=SWATH_1
+		SwathName="mod06"
+		GROUP=Dimension
+			OBJECT=Dimension_1
+				DimensionName="Cell_Across_Swath_5km"
+				Size=270
+			END_OBJECT=Dimension_1
+			OBJECT=Dimension_2
+				DimensionName="Cell_Along_Swath_5km"
+				Size=406
+			END_OBJECT=Dimension_2
+			OBJECT=Dimension_3
+				DimensionName="Cell_Across_Swath_1km"
+				Size=1354
+			END_OBJECT=Dimension_3
+			OBJECT=Dimension_4
+				DimensionName="Cell_Along_Swath_1km"
+				Size=2030
+			END_OBJECT=Dimension_4
+			OBJECT=Dimension_5
+				DimensionName="Cell_Across_Swath_hkm"
+				Size=2708
+			END_OBJECT=Dimension_5
+			OBJECT=Dimension_6
+				DimensionName="Cell_Along_Swath_hkm"
+				Size=4060
+			END_OBJECT=Dimension_6
+			OBJECT=Dimension_7
+				DimensionName="Band_Number"
+				Size=7
+			END_OBJECT=Dimension_7
+			OBJECT=Dimension_8
+				DimensionName="Band_Ratio"
+				Size=5
+			END_OBJECT=Dimension_8
+			OBJECT=Dimension_9
+				DimensionName="Band_Forcing"
+				Size=5
+			END_OBJECT=Dimension_9
+			OBJECT=Dimension_10
+				DimensionName="Band_Difference"
+				Size=2
+			END_OBJECT=Dimension_10
+			OBJECT=Dimension_11
+				DimensionName="QA_Parameter_5km"
+				Size=10
+			END_OBJECT=Dimension_11
+			OBJECT=Dimension_12
+				DimensionName="QA_Parameter_1km"
+				Size=9
+			END_OBJECT=Dimension_12
+			OBJECT=Dimension_13
+				DimensionName="Cloud_Mask_1km_Num_Bytes"
+				Size=2
+			END_OBJECT=Dimension_13
+			OBJECT=Dimension_14
+				DimensionName="Cloud_Mask_5km_Num_Bytes"
+				Size=2
+			END_OBJECT=Dimension_14
+			OBJECT=Dimension_15
+				DimensionName="RadTran_NWL"
+				Size=7
+			END_OBJECT=Dimension_15
+			OBJECT=Dimension_16
+				DimensionName="RadTran_NRE_Ice"
+				Size=12
+			END_OBJECT=Dimension_16
+			OBJECT=Dimension_17
+				DimensionName="RadTran_NRE_Liq"
+				Size=18
+			END_OBJECT=Dimension_17
+			OBJECT=Dimension_18
+				DimensionName="SPI_nband"
+				Size=2
+			END_OBJECT=Dimension_18
+			OBJECT=Dimension_19
+				DimensionName="RFM_nband"
+				Size=3
+			END_OBJECT=Dimension_19
+			OBJECT=Dimension_20
+				DimensionName="ACR_nband"
+				Size=6
+			END_OBJECT=Dimension_20
+			OBJECT=Dimension_21
+				DimensionName="Statistic_Parameter_1km"
+				Size=17
+			END_OBJECT=Dimension_21
+		END_GROUP=Dimension
+		GROUP=DimensionMap
+			OBJECT=DimensionMap_1
+				GeoDimension="Cell_Across_Swath_5km"
+				DataDimension="Cell_Across_Swath_1km"
+				Offset=2
+				Increment=5
+			END_OBJECT=DimensionMap_1
+			OBJECT=DimensionMap_2
+				GeoDimension="Cell_Along_Swath_5km"
+				DataDimension="Cell_Along_Swath_1km"
+				Offset=2
+				Increment=5
+			END_OBJECT=DimensionMap_2
+		END_GROUP=DimensionMap
+		GROUP=IndexDimensionMap
+		END_GROUP=IndexDimensionMap
+		GROUP=GeoField
+			OBJECT=GeoField_1
+				GeoFieldName="Latitude"
+				DataType=DFNT_FLOAT32
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=GeoField_1
+			OBJECT=GeoField_2
+				GeoFieldName="Longitude"
+				DataType=DFNT_FLOAT32
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=GeoField_2
+		END_GROUP=GeoField
+		GROUP=DataField
+			OBJECT=DataField_1
+				DataFieldName="Band_Number"
+				DataType=DFNT_INT32
+				DimList=("Band_Number")
+			END_OBJECT=DataField_1
+			OBJECT=DataField_2
+				DataFieldName="Statistics_1km"
+				DataType=DFNT_FLOAT32
+				DimList=("Statistic_Parameter_1km")
+			END_OBJECT=DataField_2
+			OBJECT=DataField_3
+				DataFieldName="Scan_Start_Time"
+				DataType=DFNT_FLOAT64
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_3
+			OBJECT=DataField_4
+				DataFieldName="Solar_Zenith"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_4
+			OBJECT=DataField_5
+				DataFieldName="Solar_Zenith_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_5
+			OBJECT=DataField_6
+				DataFieldName="Solar_Zenith_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_6
+			OBJECT=DataField_7
+				DataFieldName="Solar_Azimuth"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_7
+			OBJECT=DataField_8
+				DataFieldName="Solar_Azimuth_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_8
+			OBJECT=DataField_9
+				DataFieldName="Solar_Azimuth_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_9
+			OBJECT=DataField_10
+				DataFieldName="Sensor_Zenith"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_10
+			OBJECT=DataField_11
+				DataFieldName="Sensor_Zenith_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_11
+			OBJECT=DataField_12
+				DataFieldName="Sensor_Zenith_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_12
+			OBJECT=DataField_13
+				DataFieldName="Sensor_Azimuth"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_13
+			OBJECT=DataField_14
+				DataFieldName="Sensor_Azimuth_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_14
+			OBJECT=DataField_15
+				DataFieldName="Sensor_Azimuth_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_15
+			OBJECT=DataField_16
+				DataFieldName="Brightness_Temperature"
+				DataType=DFNT_INT16
+				DimList=("Band_Number","Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_16
+			OBJECT=DataField_17
+				DataFieldName="Surface_Temperature"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_17
+			OBJECT=DataField_18
+				DataFieldName="Surface_Pressure"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_18
+			OBJECT=DataField_19
+				DataFieldName="Cloud_Height_Method"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_19
+			OBJECT=DataField_20
+				DataFieldName="Cloud_Top_Height"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_20
+			OBJECT=DataField_21
+				DataFieldName="Cloud_Top_Height_Nadir"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_21
+			OBJECT=DataField_22
+				DataFieldName="Cloud_Top_Height_Nadir_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_22
+			OBJECT=DataField_23
+				DataFieldName="Cloud_Top_Height_Nadir_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_23
+			OBJECT=DataField_24
+				DataFieldName="Cloud_Top_Pressure"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_24
+			OBJECT=DataField_25
+				DataFieldName="Cloud_Top_Pressure_Nadir"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_25
+			OBJECT=DataField_26
+				DataFieldName="Cloud_Top_Pressure_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_26
+			OBJECT=DataField_27
+				DataFieldName="Cloud_Top_Pressure_Nadir_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_27
+			OBJECT=DataField_28
+				DataFieldName="Cloud_Top_Pressure_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_28
+			OBJECT=DataField_29
+				DataFieldName="Cloud_Top_Pressure_Nadir_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_29
+			OBJECT=DataField_30
+				DataFieldName="Cloud_Top_Temperature"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_30
+			OBJECT=DataField_31
+				DataFieldName="Cloud_Top_Temperature_Nadir"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_31
+			OBJECT=DataField_32
+				DataFieldName="Cloud_Top_Temperature_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_32
+			OBJECT=DataField_33
+				DataFieldName="Cloud_Top_Temperature_Nadir_Night"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_33
+			OBJECT=DataField_34
+				DataFieldName="Cloud_Top_Temperature_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_34
+			OBJECT=DataField_35
+				DataFieldName="Cloud_Top_Temperature_Nadir_Day"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_35
+			OBJECT=DataField_36
+				DataFieldName="Tropopause_Height"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_36
+			OBJECT=DataField_37
+				DataFieldName="Cloud_Fraction"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_37
+			OBJECT=DataField_38
+				DataFieldName="Cloud_Fraction_Nadir"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_38
+			OBJECT=DataField_39
+				DataFieldName="Cloud_Fraction_Night"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_39
+			OBJECT=DataField_40
+				DataFieldName="Cloud_Fraction_Nadir_Night"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_40
+			OBJECT=DataField_41
+				DataFieldName="Cloud_Fraction_Day"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_41
+			OBJECT=DataField_42
+				DataFieldName="Cloud_Fraction_Nadir_Day"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_42
+			OBJECT=DataField_43
+				DataFieldName="Cloud_Effective_Emissivity"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_43
+			OBJECT=DataField_44
+				DataFieldName="Cloud_Effective_Emissivity_Nadir"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_44
+			OBJECT=DataField_45
+				DataFieldName="Cloud_Effective_Emissivity_Night"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_45
+			OBJECT=DataField_46
+				DataFieldName="Cloud_Effective_Emissivity_Nadir_Night"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_46
+			OBJECT=DataField_47
+				DataFieldName="Cloud_Effective_Emissivity_Day"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_47
+			OBJECT=DataField_48
+				DataFieldName="Cloud_Effective_Emissivity_Nadir_Day"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_48
+			OBJECT=DataField_49
+				DataFieldName="Cloud_Top_Pressure_Infrared"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_49
+			OBJECT=DataField_50
+				DataFieldName="Spectral_Cloud_Forcing"
+				DataType=DFNT_INT16
+				DimList=("Band_Forcing","Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_50
+			OBJECT=DataField_51
+				DataFieldName="Cloud_Top_Pressure_From_Ratios"
+				DataType=DFNT_INT16
+				DimList=("Band_Ratio","Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_51
+			OBJECT=DataField_52
+				DataFieldName="Radiance_Variance"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_52
+			OBJECT=DataField_53
+				DataFieldName="Cloud_Phase_Infrared"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_53
+			OBJECT=DataField_54
+				DataFieldName="Cloud_Phase_Infrared_Night"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_54
+			OBJECT=DataField_55
+				DataFieldName="Cloud_Phase_Infrared_Day"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km")
+			END_OBJECT=DataField_55
+			OBJECT=DataField_56
+				DataFieldName="Cloud_Phase_Infrared_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_56
+			OBJECT=DataField_57
+				DataFieldName="IRP_CTH_Consistency_Flag_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_57
+			OBJECT=DataField_58
+				DataFieldName="os_top_flag_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_58
+			OBJECT=DataField_59
+				DataFieldName="cloud_top_pressure_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_59
+			OBJECT=DataField_60
+				DataFieldName="cloud_top_height_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_60
+			OBJECT=DataField_61
+				DataFieldName="cloud_top_temperature_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_61
+			OBJECT=DataField_62
+				DataFieldName="cloud_emissivity_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_62
+			OBJECT=DataField_63
+				DataFieldName="cloud_top_method_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_63
+			OBJECT=DataField_64
+				DataFieldName="surface_temperature_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_64
+			OBJECT=DataField_65
+				DataFieldName="cloud_emiss11_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_65
+			OBJECT=DataField_66
+				DataFieldName="cloud_emiss12_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_66
+			OBJECT=DataField_67
+				DataFieldName="cloud_emiss13_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_67
+			OBJECT=DataField_68
+				DataFieldName="cloud_emiss85_1km"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_68
+			OBJECT=DataField_69
+				DataFieldName="Cloud_Effective_Radius"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_69
+			OBJECT=DataField_70
+				DataFieldName="Cloud_Effective_Radius_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_70
+			OBJECT=DataField_71
+				DataFieldName="Cloud_Effective_Radius_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_71
+			OBJECT=DataField_72
+				DataFieldName="Cloud_Effective_Radius_16_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_72
+			OBJECT=DataField_73
+				DataFieldName="Cloud_Effective_Radius_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_73
+			OBJECT=DataField_74
+				DataFieldName="Cloud_Effective_Radius_37_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_74
+			OBJECT=DataField_75
+				DataFieldName="Cloud_Optical_Thickness"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_75
+			OBJECT=DataField_76
+				DataFieldName="Cloud_Optical_Thickness_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_76
+			OBJECT=DataField_77
+				DataFieldName="Cloud_Optical_Thickness_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_77
+			OBJECT=DataField_78
+				DataFieldName="Cloud_Optical_Thickness_16_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_78
+			OBJECT=DataField_79
+				DataFieldName="Cloud_Optical_Thickness_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_79
+			OBJECT=DataField_80
+				DataFieldName="Cloud_Optical_Thickness_37_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_80
+			OBJECT=DataField_81
+				DataFieldName="Cloud_Effective_Radius_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_81
+			OBJECT=DataField_82
+				DataFieldName="Cloud_Effective_Radius_1621_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_82
+			OBJECT=DataField_83
+				DataFieldName="Cloud_Optical_Thickness_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_83
+			OBJECT=DataField_84
+				DataFieldName="Cloud_Optical_Thickness_1621_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_84
+			OBJECT=DataField_85
+				DataFieldName="Cloud_Water_Path"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_85
+			OBJECT=DataField_86
+				DataFieldName="Cloud_Water_Path_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_86
+			OBJECT=DataField_87
+				DataFieldName="Cloud_Water_Path_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_87
+			OBJECT=DataField_88
+				DataFieldName="Cloud_Water_Path_1621_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_88
+			OBJECT=DataField_89
+				DataFieldName="Cloud_Water_Path_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_89
+			OBJECT=DataField_90
+				DataFieldName="Cloud_Water_Path_16_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_90
+			OBJECT=DataField_91
+				DataFieldName="Cloud_Water_Path_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_91
+			OBJECT=DataField_92
+				DataFieldName="Cloud_Water_Path_37_PCL"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_92
+			OBJECT=DataField_93
+				DataFieldName="Cloud_Effective_Radius_Uncertainty"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_93
+			OBJECT=DataField_94
+				DataFieldName="Cloud_Effective_Radius_Uncertainty_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_94
+			OBJECT=DataField_95
+				DataFieldName="Cloud_Effective_Radius_Uncertainty_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_95
+			OBJECT=DataField_96
+				DataFieldName="Cloud_Optical_Thickness_Uncertainty"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_96
+			OBJECT=DataField_97
+				DataFieldName="Cloud_Optical_Thickness_Uncertainty_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_97
+			OBJECT=DataField_98
+				DataFieldName="Cloud_Optical_Thickness_Uncertainty_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_98
+			OBJECT=DataField_99
+				DataFieldName="Cloud_Water_Path_Uncertainty"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_99
+			OBJECT=DataField_100
+				DataFieldName="Cloud_Effective_Radius_Uncertainty_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_100
+			OBJECT=DataField_101
+				DataFieldName="Cloud_Optical_Thickness_Uncertainty_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_101
+			OBJECT=DataField_102
+				DataFieldName="Cloud_Water_Path_Uncertainty_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_102
+			OBJECT=DataField_103
+				DataFieldName="Cloud_Water_Path_Uncertainty_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_103
+			OBJECT=DataField_104
+				DataFieldName="Cloud_Water_Path_Uncertainty_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_104
+			OBJECT=DataField_105
+				DataFieldName="Above_Cloud_Water_Vapor_094"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_105
+			OBJECT=DataField_106
+				DataFieldName="IRW_Low_Cloud_Temperature_From_COP"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_106
+			OBJECT=DataField_107
+				DataFieldName="Cloud_Phase_Optical_Properties"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_107
+			OBJECT=DataField_108
+				DataFieldName="Cloud_Multi_Layer_Flag"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_108
+			OBJECT=DataField_109
+				DataFieldName="Cirrus_Reflectance"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_109
+			OBJECT=DataField_110
+				DataFieldName="Cirrus_Reflectance_Flag"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km")
+			END_OBJECT=DataField_110
+			OBJECT=DataField_111
+				DataFieldName="Cloud_Mask_5km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km","Cloud_Mask_5km_Num_Bytes")
+			END_OBJECT=DataField_111
+			OBJECT=DataField_112
+				DataFieldName="Quality_Assurance_5km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_5km","Cell_Across_Swath_5km","QA_Parameter_5km")
+			END_OBJECT=DataField_112
+			OBJECT=DataField_113
+				DataFieldName="Cloud_Mask_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","Cloud_Mask_1km_Num_Bytes")
+			END_OBJECT=DataField_113
+			OBJECT=DataField_114
+				DataFieldName="Extinction_Efficiency_Ice"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Ice","RadTran_NWL")
+			END_OBJECT=DataField_114
+			OBJECT=DataField_115
+				DataFieldName="Asymmetry_Parameter_Ice"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Ice","RadTran_NWL")
+			END_OBJECT=DataField_115
+			OBJECT=DataField_116
+				DataFieldName="Single_Scatter_Albedo_Ice"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Ice","RadTran_NWL")
+			END_OBJECT=DataField_116
+			OBJECT=DataField_117
+				DataFieldName="Extinction_Efficiency_Liq"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Liq","RadTran_NWL")
+			END_OBJECT=DataField_117
+			OBJECT=DataField_118
+				DataFieldName="Asymmetry_Parameter_Liq"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Liq","RadTran_NWL")
+			END_OBJECT=DataField_118
+			OBJECT=DataField_119
+				DataFieldName="Single_Scatter_Albedo_Liq"
+				DataType=DFNT_FLOAT32
+				DimList=("RadTran_NRE_Liq","RadTran_NWL")
+			END_OBJECT=DataField_119
+			OBJECT=DataField_120
+				DataFieldName="Cloud_Mask_SPI"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","SPI_nband")
+			END_OBJECT=DataField_120
+			OBJECT=DataField_121
+				DataFieldName="Retrieval_Failure_Metric"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","RFM_nband")
+			END_OBJECT=DataField_121
+			OBJECT=DataField_122
+				DataFieldName="Retrieval_Failure_Metric_16"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","RFM_nband")
+			END_OBJECT=DataField_122
+			OBJECT=DataField_123
+				DataFieldName="Retrieval_Failure_Metric_37"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","RFM_nband")
+			END_OBJECT=DataField_123
+			OBJECT=DataField_124
+				DataFieldName="Retrieval_Failure_Metric_1621"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","RFM_nband")
+			END_OBJECT=DataField_124
+			OBJECT=DataField_125
+				DataFieldName="Atm_Corr_Refl"
+				DataType=DFNT_INT16
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","ACR_nband")
+			END_OBJECT=DataField_125
+			OBJECT=DataField_126
+				DataFieldName="Quality_Assurance_1km"
+				DataType=DFNT_INT8
+				DimList=("Cell_Along_Swath_1km","Cell_Across_Swath_1km","QA_Parameter_1km")
+			END_OBJECT=DataField_126
+		END_GROUP=DataField
+		GROUP=MergedFields
+		END_GROUP=MergedFields
+	END_GROUP=SWATH_1
+END_GROUP=SwathStructure
+GROUP=GridStructure
+END_GROUP=GridStructure
+GROUP=PointStructure
+END_GROUP=PointStructure
+END
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+[Meta.2]Number_of_Instrument_Scans
+	2030
+[Meta.3]Maximum_Number_of_1km_Frames
+	1354
+[Meta.4]history
+	$Id: MOD06_L2.CDL.fs,v 1.13 2013/06/19 15:38:46 wind Exp $                          
+
+[Meta.5]title
+	MODIS Level 2 Cloud Properties                                                      
+
+[Meta.6]CoreMetadata.0
+	
+GROUP                  = INVENTORYMETADATA
+  GROUPTYPE            = MASTERGROUP
+
+  GROUP                  = ECSDATAGRANULE
+
+    OBJECT                 = REPROCESSINGPLANNED
+      NUM_VAL              = 1
+      VALUE                = "further update is anticipated"
+    END_OBJECT             = REPROCESSINGPLANNED
+
+    OBJECT                 = REPROCESSINGACTUAL
+      NUM_VAL              = 1
+      VALUE                = "processed once"
+    END_OBJECT             = REPROCESSINGACTUAL
+
+    OBJECT                 = LOCALGRANULEID
+      NUM_VAL              = 1
+      VALUE                = "MOD06_L2.A2018213.0000.061.2018213135055.hdf"
+    END_OBJECT             = LOCALGRANULEID
+
+    OBJECT                 = DAYNIGHTFLAG
+      NUM_VAL              = 1
+      VALUE                = "Day"
+    END_OBJECT             = DAYNIGHTFLAG
+
+    OBJECT                 = PRODUCTIONDATETIME
+      NUM_VAL              = 1
+      VALUE                = "2018-08-01T13:50:55.000Z"
+    END_OBJECT             = PRODUCTIONDATETIME
+
+    OBJECT                 = LOCALVERSIONID
+      NUM_VAL              = 1
+      VALUE                = "061"
+    END_OBJECT             = LOCALVERSIONID
+
+  END_GROUP              = ECSDATAGRANULE
+
+  GROUP                  = MEASUREDPARAMETER
+
+    OBJECT                 = MEASUREDPARAMETERCONTAINER
+      CLASS                = "1"
+
+      OBJECT                 = PARAMETERNAME
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = "Cloud_Top_Pressure"
+      END_OBJECT             = PARAMETERNAME
+
+      GROUP                  = QAFLAGS
+        CLASS                = "1"
+
+        OBJECT                 = AUTOMATICQUALITYFLAG
+          NUM_VAL              = 1
+          CLASS                = "1"
+          VALUE                = "Passed"
+        END_OBJECT             = AUTOMATICQUALITYFLAG
+
+        OBJECT                 = AUTOMATICQUALITYFLAGEXPLANATION
+          NUM_VAL              = 1
+          CLASS                = "1"
+          VALUE                = "Passed: >10% useable; Failed: <10% useable"
+        END_OBJECT             = AUTOMATICQUALITYFLAGEXPLANATION
+
+        OBJECT                 = SCIENCEQUALITYFLAG
+          NUM_VAL              = 1
+          VALUE                = "Not Investigated"
+          CLASS                = "1"
+        END_OBJECT             = SCIENCEQUALITYFLAG
+
+        OBJECT                 = SCIENCEQUALITYFLAGEXPLANATION
+          NUM_VAL              = 1
+          VALUE                = "See http://modis-atmos.gsfc.nasa.gov/validation.html for more details on MODIS Atmosphere data quality."
+          CLASS                = "1"
+        END_OBJECT             = SCIENCEQUALITYFLAGEXPLANATION
+
+      END_GROUP              = QAFLAGS
+
+      GROUP                  = QASTATS
+        CLASS                = "1"
+
+        OBJECT                 = QAPERCENTMISSINGDATA
+          NUM_VAL              = 1
+          CLASS                = "1"
+          VALUE                = 6
+        END_OBJECT             = QAPERCENTMISSINGDATA
+
+      END_GROUP              = QASTATS
+
+    END_OBJECT             = MEASUREDPARAMETERCONTAINER
+
+  END_GROUP              = MEASUREDPARAMETER
+
+  GROUP                  = ORBITCALCULATEDSPATIALDOMAIN
+
+    OBJECT                 = ORBITCALCULATEDSPATIALDOMAINCONTAINER
+      CLASS                = "1"
+
+      OBJECT                 = ORBITNUMBER
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = 99034
+      END_OBJECT             = ORBITNUMBER
+
+      OBJECT                 = EQUATORCROSSINGLONGITUDE
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = 160.827967682663
+      END_OBJECT             = EQUATORCROSSINGLONGITUDE
+
+      OBJECT                 = EQUATORCROSSINGTIME
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = "23:47:19.607005"
+      END_OBJECT             = EQUATORCROSSINGTIME
+
+      OBJECT                 = EQUATORCROSSINGDATE
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = "2018-07-31"
+      END_OBJECT             = EQUATORCROSSINGDATE
+
+    END_OBJECT             = ORBITCALCULATEDSPATIALDOMAINCONTAINER
+
+  END_GROUP              = ORBITCALCULATEDSPATIALDOMAIN
+
+  GROUP                  = COLLECTIONDESCRIPTIONCLASS
+
+    OBJECT                 = SHORTNAME
+      NUM_VAL              = 1
+      VALUE                = "MOD06_L2"
+    END_OBJECT             = SHORTNAME
+
+    OBJECT                 = VERSIONID
+      NUM_VAL              = 1
+      VALUE                = 61
+    END_OBJECT             = VERSIONID
+
+  END_GROUP              = COLLECTIONDESCRIPTIONCLASS
+
+  GROUP                  = INPUTGRANULE
+
+    OBJECT                 = INPUTPOINTER
+      NUM_VAL              = 50
+      VALUE                = ("MOD021KM.A2018213.0000.061.2018213132841.hdf", "MOD03.A2018213.0000.061.2018213080654.hdf", "MOD35_L2.A2018213.0000.061.2018213133015.hdf", "gdas1.PGrbF00.180801.00z", "oisst.20180725", "goge1_2_img.v1", "modisdet.dry.101.lit_end.v3", "
+          modisdet.ozo.101.lit_end.v3", "modisdet.wts.101.lit_end.v3", "modisdet.wtl.101.lit_end.v3", "modisdet.wco.101.lit_end.v3", "MODCSR_B.A2018205.061.2018213085601.hdf", "gdas1.PGrbF00.180801.06z", "eng.180801", "NISE_SSMISF18_20180731.HDFEOS", "MODIS_Ice_library.hdf.v5", "
+          MODIS_Water_library.hdf.v4", "MODIS_Ice_library_ws3.hdf.v3", "MODIS_Ice_library_ws3sd.hdf.v4", "MODIS_Ice_library_ws7.hdf.v3", "MODIS_Ice_library_ws7sd.hdf.v4", "MODIS_Ice_library_ws15.hdf.v3", "MODIS_Ice_library_ws15sd.hdf.v4", "MODIS_Water_library_ws3.hdf.v2", "
+          MODIS_Water_library_ws3sd.hdf.v3", "MODIS_Water_library_ws7.hdf.v2", "MODIS_Water_library_ws7sd.hdf.v3", "MODIS_Water_library_ws15.hdf.v2", "MODIS_Water_library_ws15sd.hdf.v3", "MODIS_Ice_WaterPhaseFunc.hdf.v3", "Transmittance.hdf.v2", "IGBP.EcoMap.NtoS.2004.149.v004.hdf", "
+          AlbSnwStst.ByNISE.W90.D90.WS.Hemi.2000-2004.YrAvg.hdf", "MCD43GF_wsa_Band1_209_2016_V006.hdf", "MCD43GF_wsa_Band2_209_2016_V006.hdf", "MCD43GF_wsa_Band5_209_2016_V006.hdf", "MCD43GF_wsa_Band6_209_2016_V006.hdf", "MCD43GF_wsa_Band7_209_2016_V006.hdf")
+    END_OBJECT             = INPUTPOINTER
+
+  END_GROUP              = INPUTGRANULE
+
+  GROUP                  = SPATIALDOMAINCONTAINER
+
+    GROUP                  = HORIZONTALSPATIALDOMAINCONTAINER
+
+      GROUP                  = BOUNDINGRECTANGLE
+
+        OBJECT                 = WESTBOUNDINGCOORDINATE
+          NUM_VAL              = 1
+          VALUE                = 120.049194680482
+        END_OBJECT             = WESTBOUNDINGCOORDINATE
+
+        OBJECT                 = NORTHBOUNDINGCOORDINATE
+          NUM_VAL              = 1
+          VALUE                = -42.5752510586112
+        END_OBJECT             = NORTHBOUNDINGCOORDINATE
+
+        OBJECT                 = EASTBOUNDINGCOORDINATE
+          NUM_VAL              = 1
+          VALUE                = 164.605915605349
+        END_OBJECT             = EASTBOUNDINGCOORDINATE
+
+        OBJECT                 = SOUTHBOUNDINGCOORDINATE
+          NUM_VAL              = 1
+          VALUE                = -64.794552027312
+        END_OBJECT             = SOUTHBOUNDINGCOORDINATE
+
+      END_GROUP              = BOUNDINGRECTANGLE
+
+    END_GROUP              = HORIZONTALSPATIALDOMAINCONTAINER
+
+  END_GROUP              = SPATIALDOMAINCONTAINER
+
+  GROUP                  = RANGEDATETIME
+
+    OBJECT                 = RANGEBEGINNINGDATE
+      NUM_VAL              = 1
+      VALUE                = "2018-08-01"
+    END_OBJECT             = RANGEBEGINNINGDATE
+
+    OBJECT                 = RANGEBEGINNINGTIME
+      NUM_VAL              = 1
+      VALUE                = "00:00:00.000000"
+    END_OBJECT             = RANGEBEGINNINGTIME
+
+    OBJECT                 = RANGEENDINGDATE
+      NUM_VAL              = 1
+      VALUE                = "2018-08-01"
+    END_OBJECT             = RANGEENDINGDATE
+
+    OBJECT                 = RANGEENDINGTIME
+      NUM_VAL              = 1
+      VALUE                = "00:05:00.000000"
+    END_OBJECT             = RANGEENDINGTIME
+
+  END_GROUP              = RANGEDATETIME
+
+  GROUP                  = PGEVERSIONCLASS
+
+    OBJECT                 = PGEVERSION
+      NUM_VAL              = 1
+      VALUE                = "6.1.4"
+    END_OBJECT             = PGEVERSION
+
+  END_GROUP              = PGEVERSIONCLASS
+
+  GROUP                  = ANCILLARYINPUTGRANULE
+
+    OBJECT                 = ANCILLARYINPUTGRANULECONTAINER
+      CLASS                = "1"
+
+      OBJECT                 = ANCILLARYINPUTTYPE
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = "Geolocation"
+      END_OBJECT             = ANCILLARYINPUTTYPE
+
+      OBJECT                 = ANCILLARYINPUTPOINTER
+        NUM_VAL              = 1
+        CLASS                = "1"
+        VALUE                = "MOD03.A2018213.0000.061.2018213080654.hdf"
+      END_OBJECT             = ANCILLARYINPUTPOINTER
+
+    END_OBJECT             = ANCILLARYINPUTGRANULECONTAINER
+
+  END_GROUP              = ANCILLARYINPUTGRANULE
+
+  GROUP                  = ASSOCIATEDPLATFORMINSTRUMENTSENSOR
+
+    OBJECT                 = ASSOCIATEDPLATFORMINSTRUMENTSENSORCONTAINER
+      CLASS                = "1"
+
+      OBJECT                 = ASSOCIATEDSENSORSHORTNAME
+        CLASS                = "1"
+        NUM_VAL              = 1
+        VALUE                = "MODIS"
+      END_OBJECT             = ASSOCIATEDSENSORSHORTNAME
+
+      OBJECT                 = ASSOCIATEDPLATFORMSHORTNAME
+        CLASS                = "1"
+        NUM_VAL              = 1
+        VALUE                = "Terra"
+      END_OBJECT             = ASSOCIATEDPLATFORMSHORTNAME
+
+      OBJECT                 = ASSOCIATEDINSTRUMENTSHORTNAME
+        CLASS                = "1"
+        NUM_VAL              = 1
+        VALUE                = "MODIS"
+      END_OBJECT             = ASSOCIATEDINSTRUMENTSHORTNAME
+
+    END_OBJECT             = ASSOCIATEDPLATFORMINSTRUMENTSENSORCONTAINER
+
+  END_GROUP              = ASSOCIATEDPLATFORMINSTRUMENTSENSOR
+
+  GROUP                  = ADDITIONALATTRIBUTES
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "1"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "1"
+        NUM_VAL              = 1
+        VALUE                = "SuccessCloudTopPropRtrPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "1"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "1"
+          VALUE                = "   94.16"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "2"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "2"
+        NUM_VAL              = 1
+        VALUE                = "SuccessCloudPhaseRtrPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "2"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "2"
+          VALUE                = "   93.72"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "4"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "4"
+        NUM_VAL              = 1
+        VALUE                = "LowCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "4"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "4"
+          VALUE                = "   67.26"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "5"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "5"
+        NUM_VAL              = 1
+        VALUE                = "MidCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "5"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "5"
+          VALUE                = "   12.96"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "6"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "6"
+        NUM_VAL              = 1
+        VALUE                = "HighCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "6"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "6"
+          VALUE                = "   13.94"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "7"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "7"
+        NUM_VAL              = 1
+        VALUE                = "ThinCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "7"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "7"
+          VALUE                = "    8.17"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "8"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "8"
+        NUM_VAL              = 1
+        VALUE                = "ThickCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "8"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "8"
+          VALUE                = "   18.58"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "9"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "9"
+        NUM_VAL              = 1
+        VALUE                = "OpaqueCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "9"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "9"
+          VALUE                = "   67.41"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "10"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "10"
+        NUM_VAL              = 1
+        VALUE                = "CirrusCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "10"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "10"
+          VALUE                = "   26.75"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "11"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "11"
+        NUM_VAL              = 1
+        VALUE                = "IceCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "11"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "11"
+          VALUE                = "   15.48"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "12"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "12"
+        NUM_VAL              = 1
+        VALUE                = "WaterCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "12"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "12"
+          VALUE                = "   57.16"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "13"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "13"
+        NUM_VAL              = 1
+        VALUE                = "MixedCloudDetectedPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "13"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "13"
+          VALUE                = "    0.00"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "14"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "14"
+        NUM_VAL              = 1
+        VALUE                = "CloudPhaseUncertainPct_IR"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "14"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "14"
+          VALUE                = "   21.08"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "15"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "15"
+        NUM_VAL              = 1
+        VALUE                = "OceanCoverFractionPct"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "15"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "15"
+          VALUE                = "  100.00"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "16"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "16"
+        NUM_VAL              = 1
+        VALUE                = "LandCoverFractionPct"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "16"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "16"
+          VALUE                = "    0.00"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "17"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "17"
+        NUM_VAL              = 1
+        VALUE                = "SnowCoverFractionPct"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "17"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "17"
+          VALUE                = "    4.31"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "18"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "18"
+        NUM_VAL              = 1
+        VALUE                = "identifier_product_doi"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "18"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "18"
+          VALUE                = "10.5067/MODIS/MOD06_L2.061"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER
+      CLASS                = "19"
+
+      OBJECT                 = ADDITIONALATTRIBUTENAME
+        CLASS                = "19"
+        NUM_VAL              = 1
+        VALUE                = "identifier_product_doi_authority"
+      END_OBJECT             = ADDITIONALATTRIBUTENAME
+
+      GROUP                  = INFORMATIONCONTENT
+        CLASS                = "19"
+
+        OBJECT                 = PARAMETERVALUE
+          NUM_VAL              = 1
+          CLASS                = "19"
+          VALUE                = "http://dx.doi.org"
+        END_OBJECT             = PARAMETERVALUE
+
+      END_GROUP              = INFORMATIONCONTENT
+
+    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER
+
+  END_GROUP              = ADDITIONALATTRIBUTES
+
+END_GROUP              = INVENTORYMETADATA
+
+END
+
+[Meta.7]ArchiveMetadata.0
+	
+GROUP                  = ARCHIVEDMETADATA
+  GROUPTYPE            = MASTERGROUP
+
+  OBJECT                 = PROCESSINGENVIRONMENT
+    NUM_VAL              = 1
+    VALUE                = "Linux minion7044 3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux"
+  END_OBJECT             = PROCESSINGENVIRONMENT
+
+  GROUP                  = ALGORITHMPACKAGE
+
+    OBJECT                 = ALGORITHMPACKAGEACCEPTANCEDATE
+      NUM_VAL              = 1
+      VALUE                = "June 1997"
+    END_OBJECT             = ALGORITHMPACKAGEACCEPTANCEDATE
+
+    OBJECT                 = ALGORITHMPACKAGEMATURITYCODE
+      NUM_VAL              = 1
+      VALUE                = "at-launch"
+    END_OBJECT             = ALGORITHMPACKAGEMATURITYCODE
+
+    OBJECT                 = ALGORITHMPACKAGENAME
+      NUM_VAL              = 1
+      VALUE                = "ATBD-MOD-04 and ATBD-MOD-05"
+    END_OBJECT             = ALGORITHMPACKAGENAME
+
+    OBJECT                 = ALGORITHMPACKAGEVERSION
+      NUM_VAL              = 1
+      VALUE                = "2"
+    END_OBJECT             = ALGORITHMPACKAGEVERSION
+
+    OBJECT                 = INSTRUMENTNAME
+      NUM_VAL              = 1
+      VALUE                = "Moderate Resolution Imaging Spectroradiometer"
+    END_OBJECT             = INSTRUMENTNAME
+
+    OBJECT                 = LONGNAME
+      NUM_VAL              = 1
+      VALUE                = "MODIS/Terra Clouds 5-Min L2 Swath 1km and 5km"
+    END_OBJECT             = LONGNAME
+
+    OBJECT                 = LOCALINPUTGRANULEID
+      NUM_VAL              = 20
+      VALUE                = ("MOD021KM.A2018213.0000.061.2018213132841.hdf", "MOD03.A2018213.0000.061.2018213080654.hdf", "MOD35_L2.A2018213.0000.061.2018213133015.hdf", "MODCSR_B.A2018205.061.2018213085601.hdf")
+    END_OBJECT             = LOCALINPUTGRANULEID
+
+  END_GROUP              = ALGORITHMPACKAGE
+
+  GROUP                  = GPOLYGON
+
+    OBJECT                 = GPOLYGONCONTAINER
+      CLASS                = "1"
+
+      GROUP                  = GRING
+        CLASS                = "1"
+
+        OBJECT                 = EXCLUSIONGRINGFLAG
+          NUM_VAL              = 1
+          CLASS                = "1"
+          VALUE                = "N"
+        END_OBJECT             = EXCLUSIONGRINGFLAG
+
+      END_GROUP              = GRING
+
+      GROUP                  = GRINGPOINT
+        CLASS                = "1"
+
+        OBJECT                 = GRINGPOINTLONGITUDE
+          NUM_VAL              = 4
+          CLASS                = "1"
+          VALUE                = (134.913139754116, 165.191858468428, 164.428455738422, 119.798456748653)
+        END_OBJECT             = GRINGPOINTLONGITUDE
+
+        OBJECT                 = GRINGPOINTLATITUDE
+          NUM_VAL              = 4
+          CLASS                = "1"
+          VALUE                = (-42.5648380446591, -46.8893418263394, -65.1291119102558, -58.2015736784637)
+        END_OBJECT             = GRINGPOINTLATITUDE
+
+        OBJECT                 = GRINGPOINTSEQUENCENO
+          NUM_VAL              = 4
+          CLASS                = "1"
+          VALUE                = (1, 2, 3, 4)
+        END_OBJECT             = GRINGPOINTSEQUENCENO
+
+      END_GROUP              = GRINGPOINT
+
+    END_OBJECT             = GPOLYGONCONTAINER
+
+  END_GROUP              = GPOLYGON
+
+  OBJECT                 = ALGORITHM_VERSION_CLOUD_TOP_PROPERTY_IR
+    NUM_VAL              = 1
+    VALUE                = "1"
+  END_OBJECT             = ALGORITHM_VERSION_CLOUD_TOP_PROPERTY_IR
+
+  OBJECT                 = ALGORITHM_VERSION_CLOUD_PHASE_IR
+    NUM_VAL              = 1
+    VALUE                = "1"
+  END_OBJECT             = ALGORITHM_VERSION_CLOUD_PHASE_IR
+
+  OBJECT                 = ALGORITHM_VERSION_CLOUD_PROPERTY_VIS
+    NUM_VAL              = 1
+    VALUE                = "1"
+  END_OBJECT             = ALGORITHM_VERSION_CLOUD_PROPERTY_VIS
+
+  OBJECT                 = DESCRREVISION
+    NUM_VAL              = 1
+    VALUE                = "6.1"
+  END_OBJECT             = DESCRREVISION
+
+  OBJECT                 = PRODUCTIONHISTORY
+    NUM_VAL              = 1
+    VALUE                = "PGE06:6.1.4"
+  END_OBJECT             = PRODUCTIONHISTORY
+
+END_GROUP              = ARCHIVEDMETADATA
+
+END
+
+[Meta.8]Clear_Sky_Restoral_Status
+	y
+[Meta.9]Collection_4_Phase_Used
+	n
+[Meta.10]Ice_Phase_Forced
+	n
+[Meta.11]Water_Phase_Forced
+	n
+[Meta.12]identifier_product_doi
+	10.5067/MODIS/MOD06_L2.061
+[Meta.13]identifier_product_doi_authority
+	http://dx.doi.org

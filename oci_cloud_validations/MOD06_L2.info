@@ -1,0 +1,3947 @@
+data/MOD06_L2/Y2018/MOD06_L2/2018/213/MOD06_L2.A2018213.0000.061.2018213135055.hdf
+Number of variables: 127
+Key list
+[0]Latitude
+[1]Longitude
+[2]Scan_Start_Time
+[3]Solar_Zenith
+[4]Solar_Zenith_Day
+[5]Solar_Zenith_Night
+[6]Solar_Azimuth
+[7]Solar_Azimuth_Day
+[8]Solar_Azimuth_Night
+[9]Sensor_Zenith
+[10]Sensor_Zenith_Day
+[11]Sensor_Zenith_Night
+[12]Sensor_Azimuth
+[13]Sensor_Azimuth_Day
+[14]Sensor_Azimuth_Night
+[15]Brightness_Temperature
+[16]Surface_Temperature
+[17]Surface_Pressure
+[18]Cloud_Height_Method
+[19]Cloud_Top_Height
+[20]Cloud_Top_Height_Nadir
+[21]Cloud_Top_Height_Nadir_Day
+[22]Cloud_Top_Height_Nadir_Night
+[23]Cloud_Top_Pressure
+[24]Cloud_Top_Pressure_Nadir
+[25]Cloud_Top_Pressure_Night
+[26]Cloud_Top_Pressure_Nadir_Night
+[27]Cloud_Top_Pressure_Day
+[28]Cloud_Top_Pressure_Nadir_Day
+[29]Cloud_Top_Temperature
+[30]Cloud_Top_Temperature_Nadir
+[31]Cloud_Top_Temperature_Night
+[32]Cloud_Top_Temperature_Nadir_Night
+[33]Cloud_Top_Temperature_Day
+[34]Cloud_Top_Temperature_Nadir_Day
+[35]Tropopause_Height
+[36]Cloud_Fraction
+[37]Cloud_Fraction_Nadir
+[38]Cloud_Fraction_Night
+[39]Cloud_Fraction_Nadir_Night
+[40]Cloud_Fraction_Day
+[41]Cloud_Fraction_Nadir_Day
+[42]Cloud_Effective_Emissivity
+[43]Cloud_Effective_Emissivity_Nadir
+[44]Cloud_Effective_Emissivity_Night
+[45]Cloud_Effective_Emissivity_Nadir_Night
+[46]Cloud_Effective_Emissivity_Day
+[47]Cloud_Effective_Emissivity_Nadir_Day
+[48]Cloud_Top_Pressure_Infrared
+[49]Spectral_Cloud_Forcing
+[50]Cloud_Top_Pressure_From_Ratios
+[51]Radiance_Variance
+[52]Cloud_Phase_Infrared
+[53]Cloud_Phase_Infrared_Night
+[54]Cloud_Phase_Infrared_Day
+[55]Cloud_Phase_Infrared_1km
+[56]IRP_CTH_Consistency_Flag_1km
+[57]os_top_flag_1km
+[58]cloud_top_pressure_1km
+[59]cloud_top_height_1km
+[60]cloud_top_temperature_1km
+[61]cloud_emissivity_1km
+[62]cloud_top_method_1km
+[63]surface_temperature_1km
+[64]cloud_emiss11_1km
+[65]cloud_emiss12_1km
+[66]cloud_emiss13_1km
+[67]cloud_emiss85_1km
+[68]Cloud_Effective_Radius
+[69]Cloud_Effective_Radius_PCL
+[70]Cloud_Effective_Radius_16
+[71]Cloud_Effective_Radius_16_PCL
+[72]Cloud_Effective_Radius_37
+[73]Cloud_Effective_Radius_37_PCL
+[74]Cloud_Optical_Thickness
+[75]Cloud_Optical_Thickness_PCL
+[76]Cloud_Optical_Thickness_16
+[77]Cloud_Optical_Thickness_16_PCL
+[78]Cloud_Optical_Thickness_37
+[79]Cloud_Optical_Thickness_37_PCL
+[80]Cloud_Effective_Radius_1621
+[81]Cloud_Effective_Radius_1621_PCL
+[82]Cloud_Optical_Thickness_1621
+[83]Cloud_Optical_Thickness_1621_PCL
+[84]Cloud_Water_Path
+[85]Cloud_Water_Path_PCL
+[86]Cloud_Water_Path_1621
+[87]Cloud_Water_Path_1621_PCL
+[88]Cloud_Water_Path_16
+[89]Cloud_Water_Path_16_PCL
+[90]Cloud_Water_Path_37
+[91]Cloud_Water_Path_37_PCL
+[92]Cloud_Effective_Radius_Uncertainty
+[93]Cloud_Effective_Radius_Uncertainty_16
+[94]Cloud_Effective_Radius_Uncertainty_37
+[95]Cloud_Optical_Thickness_Uncertainty
+[96]Cloud_Optical_Thickness_Uncertainty_16
+[97]Cloud_Optical_Thickness_Uncertainty_37
+[98]Cloud_Water_Path_Uncertainty
+[99]Cloud_Effective_Radius_Uncertainty_1621
+[100]Cloud_Optical_Thickness_Uncertainty_1621
+[101]Cloud_Water_Path_Uncertainty_1621
+[102]Cloud_Water_Path_Uncertainty_16
+[103]Cloud_Water_Path_Uncertainty_37
+[104]Above_Cloud_Water_Vapor_094
+[105]IRW_Low_Cloud_Temperature_From_COP
+[106]Cloud_Phase_Optical_Properties
+[107]Cloud_Multi_Layer_Flag
+[108]Cirrus_Reflectance
+[109]Cirrus_Reflectance_Flag
+[110]Cloud_Mask_5km
+[111]Quality_Assurance_5km
+[112]Cloud_Mask_1km
+[113]Extinction_Efficiency_Ice
+[114]Asymmetry_Parameter_Ice
+[115]Single_Scatter_Albedo_Ice
+[116]Extinction_Efficiency_Liq
+[117]Asymmetry_Parameter_Liq
+[118]Single_Scatter_Albedo_Liq
+[119]Cloud_Mask_SPI
+[120]Retrieval_Failure_Metric
+[121]Retrieval_Failure_Metric_16
+[122]Retrieval_Failure_Metric_37
+[123]Retrieval_Failure_Metric_1621
+[124]Atm_Corr_Refl
+[125]Quality_Assurance_1km
+[126]Statistics_1km_sds
+===========================================================
+[0] Variable name:Latitude
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[0.0]valid_range
+	[-90.0, 90.0]
+[0.1]_FillValue
+	-999.9000244140625
+[0.2]long_name
+	Geodetic Latitude
+[0.3]units
+	degrees_north
+[0.4]scale_factor
+	1.0
+[0.5]add_offset
+	0.0
+[0.6]Parameter_Type
+	MODIS Input
+[0.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[0.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[0.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[1] Variable name:Longitude
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[1.0]valid_range
+	[-180.0, 180.0]
+[1.1]_FillValue
+	-999.9000244140625
+[1.2]long_name
+	Geodetic Longitude
+[1.3]units
+	degrees_east
+[1.4]scale_factor
+	1.0
+[1.5]add_offset
+	0.0
+[1.6]Parameter_Type
+	MODIS Input
+[1.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[1.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[1.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[2] Variable name:Scan_Start_Time
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[2.0]valid_range
+	[0.0, 3155800064.0]
+[2.1]_FillValue
+	-999.9000244140625
+[2.2]long_name
+	TAI time at start of scan replicated across the swath
+[2.3]units
+	seconds since 1993-1-1 00:00:00.0 0
+[2.4]scale_factor
+	1.0
+[2.5]add_offset
+	0.0
+[2.6]Parameter_Type
+	MODIS Input
+[2.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[2.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[2.9]Geolocation_Pointer
+	Geolocation data not applicable
+
+
+
+===========================================================
+[3] Variable name:Solar_Zenith
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[3.0]valid_range
+	[0, 18000]
+[3.1]_FillValue
+	-32768
+[3.2]long_name
+	Solar Zenith Angle, Cell to Sun
+[3.3]units
+	degrees
+[3.4]scale_factor
+	0.009999999776482582
+[3.5]add_offset
+	0.0
+[3.6]Parameter_Type
+	MODIS Input
+[3.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[3.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[3.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[4] Variable name:Solar_Zenith_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[4.0]valid_range
+	[0, 18000]
+[4.1]_FillValue
+	-32768
+[4.2]long_name
+	Solar Zenith Angle, Cell to Sun, Day Data Only
+[4.3]units
+	degrees
+[4.4]scale_factor
+	0.009999999776482582
+[4.5]add_offset
+	0.0
+[4.6]Parameter_Type
+	MODIS Input
+[4.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[4.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[4.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[5] Variable name:Solar_Zenith_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[5.0]valid_range
+	[0, 18000]
+[5.1]_FillValue
+	-32768
+[5.2]long_name
+	Solar Zenith Angle, Cell to Sun, Night Data Only
+[5.3]units
+	none
+[5.4]scale_factor
+	0.009999999776482582
+[5.5]add_offset
+	0.0
+[5.6]Parameter_Type
+	MODIS Input
+[5.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[5.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[5.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[6] Variable name:Solar_Azimuth
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[6.0]valid_range
+	[-18000, 18000]
+[6.1]_FillValue
+	-32768
+[6.2]long_name
+	Solar Azimuth Angle, Cell to Sun
+[6.3]units
+	degrees
+[6.4]scale_factor
+	0.009999999776482582
+[6.5]add_offset
+	0.0
+[6.6]Parameter_Type
+	MODIS Input
+[6.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[6.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[6.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[7] Variable name:Solar_Azimuth_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[7.0]valid_range
+	[-18000, 18000]
+[7.1]_FillValue
+	-32768
+[7.2]long_name
+	Solar Azimuth Angle, Cell to Sun, Day Data Only
+[7.3]units
+	degrees
+[7.4]scale_factor
+	0.009999999776482582
+[7.5]add_offset
+	0.0
+[7.6]Parameter_Type
+	MODIS Input
+[7.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[7.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[7.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[8] Variable name:Solar_Azimuth_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[8.0]valid_range
+	[-18000, 18000]
+[8.1]_FillValue
+	-32768
+[8.2]long_name
+	Solar Azimuth Angle, Cell to Sun, Night Data Only
+[8.3]units
+	degrees
+[8.4]scale_factor
+	0.009999999776482582
+[8.5]add_offset
+	0.0
+[8.6]Parameter_Type
+	MODIS Input
+[8.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[8.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[8.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[9] Variable name:Sensor_Zenith
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[9.0]valid_range
+	[0, 18000]
+[9.1]_FillValue
+	-32768
+[9.2]long_name
+	Sensor Zenith Angle, Cell to Sensor
+[9.3]units
+	degrees
+[9.4]scale_factor
+	0.009999999776482582
+[9.5]add_offset
+	0.0
+[9.6]Parameter_Type
+	MODIS Input
+[9.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[9.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[9.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[10] Variable name:Sensor_Zenith_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[10.0]valid_range
+	[0, 18000]
+[10.1]_FillValue
+	-32768
+[10.2]long_name
+	Sensor Zenith Angle, Cell to Sensor, Day Data Only
+[10.3]units
+	degrees
+[10.4]scale_factor
+	0.009999999776482582
+[10.5]add_offset
+	0.0
+[10.6]Parameter_Type
+	MODIS Input
+[10.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[10.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[10.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[11] Variable name:Sensor_Zenith_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[11.0]valid_range
+	[0, 18000]
+[11.1]_FillValue
+	-32768
+[11.2]long_name
+	Sensor Zenith Angle, Cell to Sensor, Night Data Only
+[11.3]units
+	degrees
+[11.4]scale_factor
+	0.009999999776482582
+[11.5]add_offset
+	0.0
+[11.6]Parameter_Type
+	MODIS Input
+[11.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[11.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[11.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[12] Variable name:Sensor_Azimuth
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[12.0]valid_range
+	[-18000, 18000]
+[12.1]_FillValue
+	-32768
+[12.2]long_name
+	Sensor Azimuth Angle, Cell to Sensor
+[12.3]units
+	degrees
+[12.4]scale_factor
+	0.009999999776482582
+[12.5]add_offset
+	0.0
+[12.6]Parameter_Type
+	MODIS Input
+[12.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[12.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[12.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[13] Variable name:Sensor_Azimuth_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[13.0]valid_range
+	[-18000, 18000]
+[13.1]_FillValue
+	-32768
+[13.2]long_name
+	Sensor Azimuth Angle, Cell to Sensor, Day Data Only
+[13.3]units
+	degrees
+[13.4]scale_factor
+	0.009999999776482582
+[13.5]add_offset
+	0.0
+[13.6]Parameter_Type
+	MODIS Input
+[13.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[13.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[13.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[14] Variable name:Sensor_Azimuth_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[14.0]valid_range
+	[-18000, 18000]
+[14.1]_FillValue
+	-32768
+[14.2]long_name
+	Sensor Azimuth Angle, Cell to Sensor, Night Data Only
+[14.3]units
+	degrees
+[14.4]scale_factor
+	0.009999999776482582
+[14.5]add_offset
+	0.0
+[14.6]Parameter_Type
+	MODIS Input
+[14.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[14.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[14.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[15] Variable name:Brightness_Temperature
+{'Band_Number:mod06': 7, 'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[15.0]valid_range
+	[0, 20000]
+[15.1]_FillValue
+	-32768
+[15.2]long_name
+	Observed Brightness Temperature from Cloudy Averaged Radiances in a 5x5 1-km Pixel Region
+[15.3]units
+	K
+[15.4]scale_factor
+	0.009999999776482582
+[15.5]add_offset
+	-15000.0
+[15.6]Parameter_Type
+	MODIS Input
+[15.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[15.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[15.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[16] Variable name:Surface_Temperature
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[16.0]valid_range
+	[0, 20000]
+[16.1]_FillValue
+	-32768
+[16.2]long_name
+	Surface Temperature from Ancillary Data
+[16.3]units
+	K
+[16.4]scale_factor
+	0.009999999776482582
+[16.5]add_offset
+	-15000.0
+[16.6]Parameter_Type
+	Non MODIS Input
+[16.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[16.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[16.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[17] Variable name:Surface_Pressure
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[17.0]valid_range
+	[8000, 11000]
+[17.1]_FillValue
+	-32768
+[17.2]long_name
+	Surface Pressure from Ancillary Data
+[17.3]units
+	hPa
+[17.4]scale_factor
+	0.10000000149011612
+[17.5]add_offset
+	0.0
+[17.6]Parameter_Type
+	Non MODIS Input
+[17.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[17.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[17.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[18] Variable name:Cloud_Height_Method
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[18.0]valid_range
+	[1, 6]
+[18.1]_FillValue
+	127
+[18.2]long_name
+	Index Indicating MODIS Bands Used for Cloud Top Pressure Retrieval
+[18.3]units
+	none
+[18.4]scale_factor
+	1.0
+[18.5]add_offset
+	0.0
+[18.6]Parameter_Type
+	Output
+[18.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[18.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[18.9]Geolocation_Pointer
+	Internal geolocation arrays
+[18.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS are set to mean the following:                              
+ 1 -- CO2-slicing retrieval, bands 36/35                                            
+ 2 -- CO2-slicing retrieval, bands 35/34                                            
+ 3 -- CO2-slicing retrieval, bands 35/33                                            
+ 4 -- CO2-slicing retrieval, bands 34/33                                            
+ 6 -- IR-window retrieval, band 31                                                  
+
+
+
+
+===========================================================
+[19] Variable name:Cloud_Top_Height
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[19.0]valid_range
+	[0, 18000]
+[19.1]_FillValue
+	-32767
+[19.2]long_name
+	Geopotential Height at Retrieved Cloud Top Pressure Level (rounded to nearest 50 m)
+[19.3]units
+	meters
+[19.4]scale_factor
+	1.0
+[19.5]add_offset
+	0.0
+[19.6]Parameter_Type
+	Output
+[19.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[19.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[19.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[20] Variable name:Cloud_Top_Height_Nadir
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[20.0]valid_range
+	[0, 18000]
+[20.1]_FillValue
+	-32767
+[20.2]long_name
+	Geopotential Height at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles  <=32 Degrees (rounded to nearest 50 m)
+[20.3]units
+	meters
+[20.4]scale_factor
+	1.0
+[20.5]add_offset
+	0.0
+[20.6]Parameter_Type
+	Output
+[20.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[20.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[20.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[21] Variable name:Cloud_Top_Height_Nadir_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[21.0]valid_range
+	[0, 18000]
+[21.1]_FillValue
+	-32767
+[21.2]long_name
+	Geopotential Height at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles  <=32 Degrees, Day Data Only (rounded to nearest 50 m)
+[21.3]units
+	meters
+[21.4]scale_factor
+	1.0
+[21.5]add_offset
+	0.0
+[21.6]Parameter_Type
+	Output
+[21.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[21.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[21.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[22] Variable name:Cloud_Top_Height_Nadir_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[22.0]valid_range
+	[0, 18000]
+[22.1]_FillValue
+	-32767
+[22.2]long_name
+	Geopotential Height at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles  <=32 Degrees, Night Data Only (rounded to nearest 50 m)
+[22.3]units
+	meters
+[22.4]scale_factor
+	1.0
+[22.5]add_offset
+	0.0
+[22.6]Parameter_Type
+	Output
+[22.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[22.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[22.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[23] Variable name:Cloud_Top_Pressure
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[23.0]valid_range
+	[10, 11000]
+[23.1]_FillValue
+	-32768
+[23.2]long_name
+	Cloud Top Pressure Level (rounded to nearest 5 mb)
+[23.3]units
+	hPa
+[23.4]scale_factor
+	0.10000000149011612
+[23.5]add_offset
+	0.0
+[23.6]Parameter_Type
+	Output
+[23.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[23.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[23.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[24] Variable name:Cloud_Top_Pressure_Nadir
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[24.0]valid_range
+	[10, 11000]
+[24.1]_FillValue
+	-32768
+[24.2]long_name
+	Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees (rounded to nearest 5 mb)
+[24.3]units
+	hPa
+[24.4]scale_factor
+	0.10000000149011612
+[24.5]add_offset
+	0.0
+[24.6]Parameter_Type
+	Output
+[24.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[24.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[24.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[25] Variable name:Cloud_Top_Pressure_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[25.0]valid_range
+	[10, 11000]
+[25.1]_FillValue
+	-32768
+[25.2]long_name
+	Cloud Top Pressure Level, Night Data Only (rounded to nearest 5 mb)
+[25.3]units
+	hPa
+[25.4]scale_factor
+	0.10000000149011612
+[25.5]add_offset
+	0.0
+[25.6]Parameter_Type
+	Output
+[25.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[25.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[25.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[26] Variable name:Cloud_Top_Pressure_Nadir_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[26.0]valid_range
+	[10, 11000]
+[26.1]_FillValue
+	-32768
+[26.2]long_name
+	Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees (rounded to nearest 5 mb), Night Data Only
+[26.3]units
+	hPa
+[26.4]scale_factor
+	0.10000000149011612
+[26.5]add_offset
+	0.0
+[26.6]Parameter_Type
+	Output
+[26.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[26.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[26.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[27] Variable name:Cloud_Top_Pressure_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[27.0]valid_range
+	[10, 11000]
+[27.1]_FillValue
+	-32768
+[27.2]long_name
+	Cloud Top Pressure Level, Day Only (rounded to nearest 5 mb)
+[27.3]units
+	hPa
+[27.4]scale_factor
+	0.10000000149011612
+[27.5]add_offset
+	0.0
+[27.6]Parameter_Type
+	Output
+[27.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[27.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[27.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[28] Variable name:Cloud_Top_Pressure_Nadir_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[28.0]valid_range
+	[10, 11000]
+[28.1]_FillValue
+	-32768
+[28.2]long_name
+	Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees (rounded to nearest 5 mb), Day Data Only
+[28.3]units
+	hPa
+[28.4]scale_factor
+	0.10000000149011612
+[28.5]add_offset
+	0.0
+[28.6]Parameter_Type
+	Output
+[28.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[28.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[28.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[29] Variable name:Cloud_Top_Temperature
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[29.0]valid_range
+	[0, 20000]
+[29.1]_FillValue
+	-32768
+[29.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level
+[29.3]units
+	K
+[29.4]scale_factor
+	0.009999999776482582
+[29.5]add_offset
+	-15000.0
+[29.6]Parameter_Type
+	Output
+[29.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[29.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[29.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[30] Variable name:Cloud_Top_Temperature_Nadir
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[30.0]valid_range
+	[0, 20000]
+[30.1]_FillValue
+	-32768
+[30.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees
+[30.3]units
+	K
+[30.4]scale_factor
+	0.009999999776482582
+[30.5]add_offset
+	-15000.0
+[30.6]Parameter_Type
+	Output
+[30.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[30.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[30.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[31] Variable name:Cloud_Top_Temperature_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[31.0]valid_range
+	[0, 20000]
+[31.1]_FillValue
+	-32768
+[31.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level, Night Only
+[31.3]units
+	K
+[31.4]scale_factor
+	0.009999999776482582
+[31.5]add_offset
+	-15000.0
+[31.6]Parameter_Type
+	Output
+[31.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[31.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[31.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[32] Variable name:Cloud_Top_Temperature_Nadir_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[32.0]valid_range
+	[0, 20000]
+[32.1]_FillValue
+	-32768
+[32.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees, Night Data Only
+[32.3]units
+	K
+[32.4]scale_factor
+	0.009999999776482582
+[32.5]add_offset
+	-15000.0
+[32.6]Parameter_Type
+	Output
+[32.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[32.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[32.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[33] Variable name:Cloud_Top_Temperature_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[33.0]valid_range
+	[0, 20000]
+[33.1]_FillValue
+	-32768
+[33.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level, Day Only
+[33.3]units
+	K
+[33.4]scale_factor
+	0.009999999776482582
+[33.5]add_offset
+	-15000.0
+[33.6]Parameter_Type
+	Output
+[33.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[33.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[33.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[34] Variable name:Cloud_Top_Temperature_Nadir_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[34.0]valid_range
+	[0, 20000]
+[34.1]_FillValue
+	-32768
+[34.2]long_name
+	Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level for Sensor Zenith (View) Angles <= 32 Degrees, Day Data Only
+[34.3]units
+	K
+[34.4]scale_factor
+	0.009999999776482582
+[34.5]add_offset
+	-15000.0
+[34.6]Parameter_Type
+	Output
+[34.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[34.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[34.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[35] Variable name:Tropopause_Height
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[35.0]valid_range
+	[10, 11000]
+[35.1]_FillValue
+	-32768
+[35.2]long_name
+	Tropopause Height from Ancillary Data
+[35.3]units
+	hPa
+[35.4]scale_factor
+	0.10000000149011612
+[35.5]add_offset
+	0.0
+[35.6]Parameter_Type
+	Output
+[35.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[35.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[35.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[36] Variable name:Cloud_Fraction
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[36.0]valid_range
+	[0, 100]
+[36.1]_FillValue
+	127
+[36.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask
+[36.3]units
+	none
+[36.4]scale_factor
+	0.009999999776482582
+[36.5]add_offset
+	0.0
+[36.6]Parameter_Type
+	Output
+[36.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[36.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[36.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[37] Variable name:Cloud_Fraction_Nadir
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[37.0]valid_range
+	[0, 100]
+[37.1]_FillValue
+	127
+[37.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask for Sensor Zenith (View) Angles <= 32 Degrees
+[37.3]units
+	none
+[37.4]scale_factor
+	0.009999999776482582
+[37.5]add_offset
+	0.0
+[37.6]Parameter_Type
+	Output
+[37.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[37.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[37.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[38] Variable name:Cloud_Fraction_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[38.0]valid_range
+	[0, 100]
+[38.1]_FillValue
+	127
+[38.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask, Night Only
+[38.3]units
+	none
+[38.4]scale_factor
+	0.009999999776482582
+[38.5]add_offset
+	0.0
+[38.6]Parameter_Type
+	Output
+[38.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[38.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[38.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[39] Variable name:Cloud_Fraction_Nadir_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[39.0]valid_range
+	[0, 100]
+[39.1]_FillValue
+	127
+[39.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask for Sensor Zenith (View) Angles <= 32 Degrees, Night Data Only
+[39.3]units
+	none
+[39.4]scale_factor
+	0.009999999776482582
+[39.5]add_offset
+	0.0
+[39.6]Parameter_Type
+	Output
+[39.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[39.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[39.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[40] Variable name:Cloud_Fraction_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[40.0]valid_range
+	[0, 100]
+[40.1]_FillValue
+	127
+[40.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask, Day Only
+[40.3]units
+	none
+[40.4]scale_factor
+	0.009999999776482582
+[40.5]add_offset
+	0.0
+[40.6]Parameter_Type
+	Output
+[40.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[40.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[40.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[41] Variable name:Cloud_Fraction_Nadir_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[41.0]valid_range
+	[0, 100]
+[41.1]_FillValue
+	127
+[41.2]long_name
+	Cloud Fraction in Retrieval Region (5x5 1-km Pixels) from 1-km Cloud Mask for Sensor Zenith (View) Angles <= 32 Degrees, Day Data Only
+[41.3]units
+	none
+[41.4]scale_factor
+	0.009999999776482582
+[41.5]add_offset
+	0.0
+[41.6]Parameter_Type
+	Output
+[41.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[41.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[41.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[42] Variable name:Cloud_Effective_Emissivity
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[42.0]valid_range
+	[0, 100]
+[42.1]_FillValue
+	127
+[42.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval
+[42.3]units
+	none
+[42.4]scale_factor
+	0.009999999776482582
+[42.5]add_offset
+	0.0
+[42.6]Parameter_Type
+	Output
+[42.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[42.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[42.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[43] Variable name:Cloud_Effective_Emissivity_Nadir
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[43.0]valid_range
+	[0, 100]
+[43.1]_FillValue
+	127
+[43.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval for Sensor Zenith (View) Angles <= 32 Degrees
+[43.3]units
+	none
+[43.4]scale_factor
+	0.009999999776482582
+[43.5]add_offset
+	0.0
+[43.6]Parameter_Type
+	Output
+[43.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[43.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[43.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[44] Variable name:Cloud_Effective_Emissivity_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[44.0]valid_range
+	[0, 100]
+[44.1]_FillValue
+	127
+[44.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval, Night Only
+[44.3]units
+	none
+[44.4]scale_factor
+	0.009999999776482582
+[44.5]add_offset
+	0.0
+[44.6]Parameter_Type
+	Output
+[44.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[44.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[44.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[45] Variable name:Cloud_Effective_Emissivity_Nadir_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[45.0]valid_range
+	[0, 100]
+[45.1]_FillValue
+	127
+[45.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval for Sensor Zenith (View) Angles <= 32 Degrees, Night Data Only
+[45.3]units
+	none
+[45.4]scale_factor
+	0.009999999776482582
+[45.5]add_offset
+	0.0
+[45.6]Parameter_Type
+	Output
+[45.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[45.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[45.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[46] Variable name:Cloud_Effective_Emissivity_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[46.0]valid_range
+	[0, 100]
+[46.1]_FillValue
+	127
+[46.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval, Day Only
+[46.3]units
+	none
+[46.4]scale_factor
+	0.009999999776482582
+[46.5]add_offset
+	0.0
+[46.6]Parameter_Type
+	Output
+[46.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[46.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[46.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[47] Variable name:Cloud_Effective_Emissivity_Nadir_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[47.0]valid_range
+	[0, 100]
+[47.1]_FillValue
+	127
+[47.2]long_name
+	Cloud Effective Emissivity from Cloud Top Pressure Retrieval for Sensor Zenith (View) Angles <= 32 Degrees, Day Data Only
+[47.3]units
+	none
+[47.4]scale_factor
+	0.009999999776482582
+[47.5]add_offset
+	0.0
+[47.6]Parameter_Type
+	Output
+[47.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[47.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[47.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[48] Variable name:Cloud_Top_Pressure_Infrared
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[48.0]valid_range
+	[10, 11000]
+[48.1]_FillValue
+	-32768
+[48.2]long_name
+	Cloud Top Pressure from IR Window Retrieval
+[48.3]units
+	hPa
+[48.4]scale_factor
+	0.10000000149011612
+[48.5]add_offset
+	0.0
+[48.6]Parameter_Type
+	Output
+[48.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[48.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[48.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[49] Variable name:Spectral_Cloud_Forcing
+{'Band_Forcing:mod06': 5, 'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[49.0]valid_range
+	[-2000, 2000]
+[49.1]_FillValue
+	-32768
+[49.2]long_name
+	Spectral Cloud Forcing (cloud minus clear radiance)
+[49.3]units
+	Watts/meter2/steradian/micron
+[49.4]scale_factor
+	0.009999999776482582
+[49.5]add_offset
+	0.0
+[49.6]Parameter_Type
+	Output
+[49.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[49.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[49.9]Geolocation_Pointer
+	Internal geolocation arrays
+[49.10]description
+	\n                                                                                  
+                                                                                    
+ Spectral cloud forcing, cloudy-clear radiance, each channel in order:              
+ 36, 35, 34, 33 and 31 for Band_Forcing dimension reference                         
+
+
+
+
+===========================================================
+[50] Variable name:Cloud_Top_Pressure_From_Ratios
+{'Band_Ratio:mod06': 5, 'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[50.0]valid_range
+	[10, 11000]
+[50.1]_FillValue
+	-32768
+[50.2]long_name
+	Cloud Top Pressure Levels from Ratios of Bands 36/35, 35/34, 35/33, 34/33 from the CO2-slicing Algorithm
+[50.3]units
+	hPa
+[50.4]scale_factor
+	0.10000000149011612
+[50.5]add_offset
+	0.0
+[50.6]Parameter_Type
+	Output
+[50.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[50.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[50.9]Geolocation_Pointer
+	Internal geolocation arrays
+[50.10]description
+	\n                                                                                  
+                                                                                    
+ Cloud top pressure level solutions in the following array locations:               
+ Band_Ratio:mod06 = 1:      MODIS bands 36/35                                       
+ Band_Ratio:mod06 = 2:      MODIS bands 35/34                                       
+ Band_Ratio:mod06 = 3:      MODIS bands 35/33                                       
+ Band_Ratio:mod06 = 4:      MODIS bands 34/33                                       
+ Band_Ratio:mod06 = 5:      Not used                                                
+
+
+
+
+===========================================================
+[51] Variable name:Radiance_Variance
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[51.0]valid_range
+	[0, 20]
+[51.1]_FillValue
+	-32768
+[51.2]long_name
+	Band 31 Radiance Standard Deviation
+[51.3]units
+	Watts/meter2/steradian/micron
+[51.4]scale_factor
+	0.009999999776482582
+[51.5]add_offset
+	0.0
+[51.6]Parameter_Type
+	Output
+[51.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[51.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[51.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[52] Variable name:Cloud_Phase_Infrared
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[52.0]valid_range
+	[0, 6]
+[52.1]_FillValue
+	127
+[52.2]long_name
+	Cloud Phase from 8.5 and 11 um Bands
+[52.3]units
+	none
+[52.4]scale_factor
+	1.0
+[52.5]add_offset
+	0.0
+[52.6]Parameter_Type
+	Output
+[52.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[52.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[52.9]Geolocation_Pointer
+	Internal geolocation arrays
+[52.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS indicate the following cloud phase:                         
+ 0 -- cloud free                                                                    
+ 1 -- water cloud                                                                   
+ 2 -- ice cloud                                                                     
+ 3 -- mixed phase cloud                                                             
+ 6 -- undetermined phase                                                            
+
+
+
+
+===========================================================
+[53] Variable name:Cloud_Phase_Infrared_Night
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[53.0]valid_range
+	[0, 6]
+[53.1]_FillValue
+	127
+[53.2]long_name
+	Cloud Phase from 8.5 and 11 um Bands, Night Only
+[53.3]units
+	none
+[53.4]scale_factor
+	1.0
+[53.5]add_offset
+	0.0
+[53.6]Parameter_Type
+	Output
+[53.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[53.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[53.9]Geolocation_Pointer
+	Internal geolocation arrays
+[53.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS indicate the following cloud phase:                         
+ 0 -- cloud free                                                                    
+ 1 -- water cloud                                                                   
+ 2 -- ice cloud                                                                     
+ 3 -- mixed phase cloud                                                             
+ 6 -- undetermined phase                                                            
+
+
+
+
+===========================================================
+[54] Variable name:Cloud_Phase_Infrared_Day
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270}
+===========================================================
+[54.0]valid_range
+	[0, 6]
+[54.1]_FillValue
+	127
+[54.2]long_name
+	Cloud Phase from 8.5 and 11 um Bands, Day Only
+[54.3]units
+	none
+[54.4]scale_factor
+	1.0
+[54.5]add_offset
+	0.0
+[54.6]Parameter_Type
+	Output
+[54.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[54.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[54.9]Geolocation_Pointer
+	Internal geolocation arrays
+[54.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS indicate the following cloud phase:                         
+ 0 -- cloud free                                                                    
+ 1 -- water cloud                                                                   
+ 2 -- ice cloud                                                                     
+ 3 -- mixed phase cloud                                                             
+ 6 -- undetermined phase                                                            
+
+
+
+
+===========================================================
+[55] Variable name:Cloud_Phase_Infrared_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[55.0]valid_range
+	[0, 6]
+[55.1]_FillValue
+	127
+[55.2]long_name
+	Cloud Phase at 1-km resolution from 8.5- 11 um BTDs and cloud emissivity ratios (12/11, 8.5/11, and 7.2/11 um)
+[55.3]units
+	none
+[55.4]scale_factor
+	1.0
+[55.5]add_offset
+	0.0
+[55.6]Parameter_Type
+	Output
+[55.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[55.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[55.9]Geolocation_Pointer
+	External geolocation arrays
+[55.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS indicate the following cloud phase:                         
+ 0 -- cloud free                                                                    
+ 1 -- water cloud                                                                   
+ 2 -- ice cloud                                                                     
+ 3 -- mixed phase cloud                                                             
+ 6 -- undetermined phase                                                            
+
+
+
+
+===========================================================
+[56] Variable name:IRP_CTH_Consistency_Flag_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[56.0]valid_range
+	[0, 1]
+[56.1]_FillValue
+	127
+[56.2]long_name
+	Indicates Cloud_Phase_Infrared_1km results changed to ice from water when cloud_top_method_1km reports valid band 36/35 CO2-slicing result (1=change)
+[56.3]units
+	none
+[56.4]scale_factor
+	1.0
+[56.5]add_offset
+	0.0
+[56.6]Parameter_Type
+	Output
+[56.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[56.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[56.9]Geolocation_Pointer
+	External geolocation arrays
+[56.10]description
+	\n                                                                                  
+
+
+
+
+===========================================================
+[57] Variable name:os_top_flag_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[57.0]valid_range
+	[0, 2]
+[57.1]_FillValue
+	127
+[57.2]long_name
+	Upper Tropospheric/Lower Stratospheric (UTLS) Cloud Flag at 1-km  resolution - valid from -50 to +50 Degrees Latitude
+[57.3]units
+	none
+[57.4]scale_factor
+	1.0
+[57.5]add_offset
+	0.0
+[57.6]Parameter_Type
+	Output
+[57.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[57.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[57.9]Geolocation_Pointer
+	External geolocation arrays
+[57.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS indicate the following:                                     
+ 0 -- stratospheric cloud test not performed                                        
+ 1 -- stratospheric cloud not indicated                                             
+ 2 -- stratospheric cloud indicated (BTD35-33 > 0.5K)                               
+
+
+
+
+===========================================================
+[58] Variable name:cloud_top_pressure_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[58.0]valid_range
+	[10, 11000]
+[58.1]_FillValue
+	-999
+[58.2]long_name
+	Cloud Top Pressure at 1-km resolution from LEOCAT, Cloud Top Pressure Level rounded to nearest 5 mb
+[58.3]units
+	hPa
+[58.4]scale_factor
+	0.10000000149011612
+[58.5]add_offset
+	0.0
+[58.6]Parameter_Type
+	Output
+[58.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[58.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[58.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[59] Variable name:cloud_top_height_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[59.0]valid_range
+	[0, 18000]
+[59.1]_FillValue
+	-999
+[59.2]long_name
+	Cloud Top Height at 1-km resolution from LEOCAT, Geopotential Height at Retrieved Cloud Top Pressure Level rounded to nearest 50 m
+[59.3]units
+	meters
+[59.4]scale_factor
+	1.0
+[59.5]add_offset
+	0.0
+[59.6]Parameter_Type
+	Output
+[59.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[59.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[59.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[60] Variable name:cloud_top_temperature_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[60.0]valid_range
+	[0, 20000]
+[60.1]_FillValue
+	-999
+[60.2]long_name
+	Cloud Top Temperature at 1-km resolution from LEOCAT, Temperature from Ancillary Data at Retrieved Cloud Top Pressure Level
+[60.3]units
+	K
+[60.4]scale_factor
+	0.009999999776482582
+[60.5]add_offset
+	-15000.0
+[60.6]Parameter_Type
+	Output
+[60.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[60.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[60.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[61] Variable name:cloud_emissivity_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[61.0]valid_range
+	[0, 100]
+[61.1]_FillValue
+	127
+[61.2]long_name
+	Cloud Emissivity at 1-km resolution from LEOCAT Cloud Top Pressure Retrieval
+[61.3]units
+	unitless
+[61.4]scale_factor
+	0.009999999776482582
+[61.5]add_offset
+	0.0
+[61.6]Parameter_Type
+	Output
+[61.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[61.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[61.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[62] Variable name:cloud_top_method_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[62.0]valid_range
+	[0, 6]
+[62.1]_FillValue
+	127
+[62.2]long_name
+	Index Indicating the MODIS Band(s) Used to Produce the Cloud Top Pressure Result
+[62.3]units
+	unitless
+[62.4]scale_factor
+	1.0
+[62.5]add_offset
+	0.0
+[62.6]Parameter_Type
+	Output
+[62.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[62.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[62.9]Geolocation_Pointer
+	External MODIS geolocation product
+[62.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS are set to mean the following:                              
+ 1 -- CO2-slicing retrieval, bands 36/35                                            
+ 2 -- CO2-slicing retrieval, bands 35/34                                            
+ 3 -- CO2-slicing retrieval, bands 35/33                                            
+ 4 -- CO2-slicing retrieval, bands 34/33                                            
+ 6 -- IR-window retrieval, band 31                                                  
+
+
+
+
+===========================================================
+[63] Variable name:surface_temperature_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[63.0]valid_range
+	[0, 20000]
+[63.1]_FillValue
+	-999
+[63.2]long_name
+	Surface Temperature for Each 1-km MODIS Pixel Interplated from Ancillary Data
+[63.3]units
+	K
+[63.4]scale_factor
+	0.009999999776482582
+[63.5]add_offset
+	-15000.0
+[63.6]Parameter_Type
+	Non MODIS Input
+[63.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[63.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[63.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[64] Variable name:cloud_emiss11_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[64.0]valid_range
+	[0, 10000]
+[64.1]_FillValue
+	-999
+[64.2]long_name
+	11 micron Cloud Emissivity at 1-km resolution from LEOCAT for All Clouds
+[64.3]units
+	unitless
+[64.4]scale_factor
+	9.999999747378752e-05
+[64.5]add_offset
+	0.0
+[64.6]Parameter_Type
+	Output
+[64.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[64.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[64.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[65] Variable name:cloud_emiss12_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[65.0]valid_range
+	[0, 10000]
+[65.1]_FillValue
+	-999
+[65.2]long_name
+	12 micron Cloud Emissivity at 1-km resolution from LEOCAT for All Clouds
+[65.3]units
+	unitless
+[65.4]scale_factor
+	9.999999747378752e-05
+[65.5]add_offset
+	0.0
+[65.6]Parameter_Type
+	Output
+[65.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[65.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[65.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[66] Variable name:cloud_emiss13_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[66.0]valid_range
+	[0, 10000]
+[66.1]_FillValue
+	-999
+[66.2]long_name
+	13.3 micron Cloud Emissivity at 1-km resolution from LEOCAT for All Clouds
+[66.3]units
+	unitless
+[66.4]scale_factor
+	9.999999747378752e-05
+[66.5]add_offset
+	0.0
+[66.6]Parameter_Type
+	Output
+[66.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[66.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[66.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[67] Variable name:cloud_emiss85_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[67.0]valid_range
+	[0, 10000]
+[67.1]_FillValue
+	-999
+[67.2]long_name
+	8.5 micron Cloud Emissivity at 1-km resolution from LEOCAT for All Clouds
+[67.3]units
+	unitless
+[67.4]scale_factor
+	9.999999747378752e-05
+[67.5]add_offset
+	0.0
+[67.6]Parameter_Type
+	Output
+[67.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[67.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[67.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[68] Variable name:Cloud_Effective_Radius
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[68.0]valid_range
+	[0, 10000]
+[68.1]_FillValue
+	-9999
+[68.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um)  (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[68.3]units
+	micron
+[68.4]scale_factor
+	0.009999999776482582
+[68.5]add_offset
+	0.0
+[68.6]Parameter_Type
+	Output
+[68.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[68.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[68.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[69] Variable name:Cloud_Effective_Radius_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[69.0]valid_range
+	[0, 10000]
+[69.1]_FillValue
+	-9999
+[69.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[69.3]units
+	micron
+[69.4]scale_factor
+	0.009999999776482582
+[69.5]add_offset
+	0.0
+[69.6]Parameter_Type
+	Output
+[69.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[69.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[69.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[70] Variable name:Cloud_Effective_Radius_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[70.0]valid_range
+	[0, 10000]
+[70.1]_FillValue
+	-9999
+[70.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um)  (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[70.3]units
+	micron
+[70.4]scale_factor
+	0.009999999776482582
+[70.5]add_offset
+	0.0
+[70.6]Parameter_Type
+	Output
+[70.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[70.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[70.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[71] Variable name:Cloud_Effective_Radius_16_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[71.0]valid_range
+	[0, 10000]
+[71.1]_FillValue
+	-9999
+[71.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um)  (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[71.3]units
+	micron
+[71.4]scale_factor
+	0.009999999776482582
+[71.5]add_offset
+	0.0
+[71.6]Parameter_Type
+	Output
+[71.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[71.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[71.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[72] Variable name:Cloud_Effective_Radius_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[72.0]valid_range
+	[0, 10000]
+[72.1]_FillValue
+	-9999
+[72.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[72.3]units
+	micron
+[72.4]scale_factor
+	0.009999999776482582
+[72.5]add_offset
+	0.0
+[72.6]Parameter_Type
+	Output
+[72.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[72.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[72.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[73] Variable name:Cloud_Effective_Radius_37_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[73.0]valid_range
+	[0, 10000]
+[73.1]_FillValue
+	-9999
+[73.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[73.3]units
+	micron
+[73.4]scale_factor
+	0.009999999776482582
+[73.5]add_offset
+	0.0
+[73.6]Parameter_Type
+	Output
+[73.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[73.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[73.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[74] Variable name:Cloud_Optical_Thickness
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[74.0]valid_range
+	[0, 10000]
+[74.1]_FillValue
+	-9999
+[74.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um)  (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[74.3]units
+	none
+[74.4]scale_factor
+	0.009999999776482582
+[74.5]add_offset
+	0.0
+[74.6]Parameter_Type
+	Output
+[74.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[74.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[74.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[75] Variable name:Cloud_Optical_Thickness_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[75.0]valid_range
+	[0, 10000]
+[75.1]_FillValue
+	-9999
+[75.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[75.3]units
+	none
+[75.4]scale_factor
+	0.009999999776482582
+[75.5]add_offset
+	0.0
+[75.6]Parameter_Type
+	Output
+[75.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[75.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[75.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[76] Variable name:Cloud_Optical_Thickness_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[76.0]valid_range
+	[0, 10000]
+[76.1]_FillValue
+	-9999
+[76.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[76.3]units
+	none
+[76.4]scale_factor
+	0.009999999776482582
+[76.5]add_offset
+	0.0
+[76.6]Parameter_Type
+	Output
+[76.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[76.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[76.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[77] Variable name:Cloud_Optical_Thickness_16_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[77.0]valid_range
+	[0, 10000]
+[77.1]_FillValue
+	-9999
+[77.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um)  (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[77.3]units
+	none
+[77.4]scale_factor
+	0.009999999776482582
+[77.5]add_offset
+	0.0
+[77.6]Parameter_Type
+	Output
+[77.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[77.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[77.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[78] Variable name:Cloud_Optical_Thickness_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[78.0]valid_range
+	[0, 10000]
+[78.1]_FillValue
+	-9999
+[78.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[78.3]units
+	none
+[78.4]scale_factor
+	0.009999999776482582
+[78.5]add_offset
+	0.0
+[78.6]Parameter_Type
+	Output
+[78.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[78.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[78.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[79] Variable name:Cloud_Optical_Thickness_37_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[79.0]valid_range
+	[0, 10000]
+[79.1]_FillValue
+	-9999
+[79.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[79.3]units
+	none
+[79.4]scale_factor
+	0.009999999776482582
+[79.5]add_offset
+	0.0
+[79.6]Parameter_Type
+	Output
+[79.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[79.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[79.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[80] Variable name:Cloud_Effective_Radius_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[80.0]valid_range
+	[0, 10000]
+[80.1]_FillValue
+	-9999
+[80.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 7(2.1um) and band 6(1.6um)from best points: not failed in any way, not marked for clear sky restoral
+[80.3]units
+	micron
+[80.4]scale_factor
+	0.009999999776482582
+[80.5]add_offset
+	0.0
+[80.6]Parameter_Type
+	Output
+[80.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[80.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[80.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[81] Variable name:Cloud_Effective_Radius_1621_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[81.0]valid_range
+	[0, 10000]
+[81.1]_FillValue
+	-9999
+[81.2]long_name
+	Cloud Particle Effective Radius two-channel retrieval using band 7(2.1um) and band 6(1.6um)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[81.3]units
+	micron
+[81.4]scale_factor
+	0.009999999776482582
+[81.5]add_offset
+	0.0
+[81.6]Parameter_Type
+	Output
+[81.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[81.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[81.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[82] Variable name:Cloud_Optical_Thickness_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[82.0]valid_range
+	[0, 10000]
+[82.1]_FillValue
+	-9999
+[82.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 7(2.1um) and band 6(1.6um)from best points: not failed in any way, not marked for clear sky restoral
+[82.3]units
+	none
+[82.4]scale_factor
+	0.009999999776482582
+[82.5]add_offset
+	0.0
+[82.6]Parameter_Type
+	Output
+[82.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[82.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[82.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[83] Variable name:Cloud_Optical_Thickness_1621_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[83.0]valid_range
+	[0, 10000]
+[83.1]_FillValue
+	-9999
+[83.2]long_name
+	Cloud Optical Thickness two-channel retrieval using band 7(2.1um) and band 6(1.6um)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[83.3]units
+	none
+[83.4]scale_factor
+	0.009999999776482582
+[83.5]add_offset
+	0.0
+[83.6]Parameter_Type
+	Output
+[83.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[83.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[83.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[84] Variable name:Cloud_Water_Path
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[84.0]valid_range
+	[0, 10000]
+[84.1]_FillValue
+	-9999
+[84.2]long_name
+	Column Water Path two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[84.3]units
+	g/m^2
+[84.4]scale_factor
+	1.0
+[84.5]add_offset
+	0.0
+[84.6]Parameter_Type
+	Output
+[84.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[84.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[84.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[85] Variable name:Cloud_Water_Path_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[85.0]valid_range
+	[0, 10000]
+[85.1]_FillValue
+	-9999
+[85.2]long_name
+	Column Water Path two-channel retrieval using band 7(2.1um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[85.3]units
+	g/m^2
+[85.4]scale_factor
+	1.0
+[85.5]add_offset
+	0.0
+[85.6]Parameter_Type
+	Output
+[85.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[85.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[85.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[86] Variable name:Cloud_Water_Path_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[86.0]valid_range
+	[0, 10000]
+[86.1]_FillValue
+	-9999
+[86.2]long_name
+	Column Water Path two-channel retrieval using band 7(2.1um) and band 6(1.6um)from best points: not failed in any way, not marked for clear sky restoral
+[86.3]units
+	g/m^2
+[86.4]scale_factor
+	1.0
+[86.5]add_offset
+	0.0
+[86.6]Parameter_Type
+	Output
+[86.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[86.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[86.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[87] Variable name:Cloud_Water_Path_1621_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[87.0]valid_range
+	[0, 10000]
+[87.1]_FillValue
+	-9999
+[87.2]long_name
+	Column Water Path two-channel retrieval using band 7(2.1um) and band 6(1.6um)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[87.3]units
+	g/m^2
+[87.4]scale_factor
+	1.0
+[87.5]add_offset
+	0.0
+[87.6]Parameter_Type
+	Output
+[87.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[87.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[87.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[88] Variable name:Cloud_Water_Path_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[88.0]valid_range
+	[0, 10000]
+[88.1]_FillValue
+	-9999
+[88.2]long_name
+	Column Water Path two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[88.3]units
+	g/m^2
+[88.4]scale_factor
+	1.0
+[88.5]add_offset
+	0.0
+[88.6]Parameter_Type
+	Output
+[88.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[88.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[88.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[89] Variable name:Cloud_Water_Path_16_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[89.0]valid_range
+	[0, 10000]
+[89.1]_FillValue
+	-9999
+[89.2]long_name
+	Column Water Path two-channel retrieval using band 6(1.6um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[89.3]units
+	g/m^2
+[89.4]scale_factor
+	1.0
+[89.5]add_offset
+	0.0
+[89.6]Parameter_Type
+	Output
+[89.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[89.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[89.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[90] Variable name:Cloud_Water_Path_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[90.0]valid_range
+	[0, 10000]
+[90.1]_FillValue
+	-9999
+[90.2]long_name
+	Column Water Path two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from best points: not failed in any way, not marked for clear sky restoral
+[90.3]units
+	g/m^2
+[90.4]scale_factor
+	1.0
+[90.5]add_offset
+	0.0
+[90.6]Parameter_Type
+	Output
+[90.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[90.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[90.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[91] Variable name:Cloud_Water_Path_37_PCL
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[91.0]valid_range
+	[0, 10000]
+[91.1]_FillValue
+	-9999
+[91.2]long_name
+	Column Water Path two-channel retrieval using band 20(3.7um) and either band 1(0.65um), 2(0.86um), or 5(1.2um) (specified in Quality_Assurance_1km)from points identified as either partly cloudy from 250m cloud mask test or 1km cloud edges
+[91.3]units
+	g/m^2
+[91.4]scale_factor
+	1.0
+[91.5]add_offset
+	0.0
+[91.6]Parameter_Type
+	Output
+[91.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[91.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[91.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[92] Variable name:Cloud_Effective_Radius_Uncertainty
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[92.0]valid_range
+	[0, 20000]
+[92.1]_FillValue
+	-9999
+[92.2]long_name
+	Cloud Effective Particle Radius (from band 7(2.1um)) Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[92.3]units
+	percent
+[92.4]scale_factor
+	0.009999999776482582
+[92.5]add_offset
+	0.0
+[92.6]Parameter_Type
+	Output
+[92.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[92.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[92.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[93] Variable name:Cloud_Effective_Radius_Uncertainty_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[93.0]valid_range
+	[0, 20000]
+[93.1]_FillValue
+	-9999
+[93.2]long_name
+	Cloud Effective Particle Radius (from band 6(1.6um) Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[93.3]units
+	percent
+[93.4]scale_factor
+	0.009999999776482582
+[93.5]add_offset
+	0.0
+[93.6]Parameter_Type
+	Output
+[93.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[93.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[93.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[94] Variable name:Cloud_Effective_Radius_Uncertainty_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[94.0]valid_range
+	[0, 20000]
+[94.1]_FillValue
+	-9999
+[94.2]long_name
+	Cloud Effective Particle Radius  (from band 20(3.7um)) Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[94.3]units
+	percent
+[94.4]scale_factor
+	0.009999999776482582
+[94.5]add_offset
+	0.0
+[94.6]Parameter_Type
+	Output
+[94.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[94.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[94.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[95] Variable name:Cloud_Optical_Thickness_Uncertainty
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[95.0]valid_range
+	[0, 20000]
+[95.1]_FillValue
+	-9999
+[95.2]long_name
+	Cloud Optical Thickness Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Optical_Thickness and Cloud_Effective_Radius results
+[95.3]units
+	percent
+[95.4]scale_factor
+	0.009999999776482582
+[95.5]add_offset
+	0.0
+[95.6]Parameter_Type
+	Output
+[95.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[95.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[95.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[96] Variable name:Cloud_Optical_Thickness_Uncertainty_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[96.0]valid_range
+	[0, 20000]
+[96.1]_FillValue
+	-9999
+[96.2]long_name
+	Cloud Optical Thickness Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Optical_Thickness_16 and Cloud_Effective_Radius_16 results
+[96.3]units
+	percent
+[96.4]scale_factor
+	0.009999999776482582
+[96.5]add_offset
+	0.0
+[96.6]Parameter_Type
+	Output
+[96.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[96.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[96.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[97] Variable name:Cloud_Optical_Thickness_Uncertainty_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[97.0]valid_range
+	[0, 20000]
+[97.1]_FillValue
+	-9999
+[97.2]long_name
+	Cloud Optical Thickness Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Optical_Thickness_37 and Cloud_Effective_Radius_37 results
+[97.3]units
+	percent
+[97.4]scale_factor
+	0.009999999776482582
+[97.5]add_offset
+	0.0
+[97.6]Parameter_Type
+	Output
+[97.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[97.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[97.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[98] Variable name:Cloud_Water_Path_Uncertainty
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[98.0]valid_range
+	[0, 20000]
+[98.1]_FillValue
+	-9999
+[98.2]long_name
+	Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Water_Path result
+[98.3]units
+	percent
+[98.4]scale_factor
+	0.009999999776482582
+[98.5]add_offset
+	0.0
+[98.6]Parameter_Type
+	Output
+[98.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[98.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[98.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[99] Variable name:Cloud_Effective_Radius_Uncertainty_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[99.0]valid_range
+	[0, 20000]
+[99.1]_FillValue
+	-9999
+[99.2]long_name
+	Cloud Effective Particle Radius Relative Uncertainty (Percent) using band 7(2.1um) and band 6(1.6um)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[99.3]units
+	percent
+[99.4]scale_factor
+	0.009999999776482582
+[99.5]add_offset
+	0.0
+[99.6]Parameter_Type
+	Output
+[99.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[99.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[99.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[100] Variable name:Cloud_Optical_Thickness_Uncertainty_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[100.0]valid_range
+	[0, 20000]
+[100.1]_FillValue
+	-9999
+[100.2]long_name
+	Cloud Optical Thickness Relative Uncertainty  (Percent) using band 7(2.1um) and band 6(1.6um)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[100.3]units
+	percent
+[100.4]scale_factor
+	0.009999999776482582
+[100.5]add_offset
+	0.0
+[100.6]Parameter_Type
+	Output
+[100.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[100.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[100.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[101] Variable name:Cloud_Water_Path_Uncertainty_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[101.0]valid_range
+	[0, 20000]
+[101.1]_FillValue
+	-9999
+[101.2]long_name
+	Cloud Water Path Relative Uncertainty  (Percent) using band 7(2.1um) and band 6(1.6um)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m
+[101.3]units
+	percent
+[101.4]scale_factor
+	0.009999999776482582
+[101.5]add_offset
+	0.0
+[101.6]Parameter_Type
+	Output
+[101.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[101.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[101.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[102] Variable name:Cloud_Water_Path_Uncertainty_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[102.0]valid_range
+	[0, 20000]
+[102.1]_FillValue
+	-9999
+[102.2]long_name
+	Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m using the VNSWIR-1.6um retrieval
+[102.3]units
+	percent
+[102.4]scale_factor
+	0.009999999776482582
+[102.5]add_offset
+	0.0
+[102.6]Parameter_Type
+	Output
+[102.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[102.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[102.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[103] Variable name:Cloud_Water_Path_Uncertainty_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[103.0]valid_range
+	[0, 20000]
+[103.1]_FillValue
+	-9999
+[103.2]long_name
+	Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m using the VNSWIR-3.7um retrieval
+[103.3]units
+	percent
+[103.4]scale_factor
+	0.009999999776482582
+[103.5]add_offset
+	0.0
+[103.6]Parameter_Type
+	Output
+[103.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[103.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[103.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[104] Variable name:Above_Cloud_Water_Vapor_094
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[104.0]valid_range
+	[0, 1500]
+[104.1]_FillValue
+	-9999
+[104.2]long_name
+	Above-cloud water vapor amount from 0.94um channel, ocean only, tau > 5.
+[104.3]units
+	cm
+[104.4]scale_factor
+	0.009999999776482582
+[104.5]add_offset
+	0.0
+[104.6]Parameter_Type
+	Output
+[104.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[104.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[104.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[105] Variable name:IRW_Low_Cloud_Temperature_From_COP
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[105.0]valid_range
+	[0, 20000]
+[105.1]_FillValue
+	-32768
+[105.2]long_name
+	Low Cloud Temperature from IR Window retrieval  using cloud emissivity based on cloud optical thickness
+[105.3]units
+	K
+[105.4]scale_factor
+	0.009999999776482582
+[105.5]add_offset
+	-15000.0
+[105.6]Parameter_Type
+	Output
+[105.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[105.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[105.9]Geolocation_Pointer
+	Internal geolocation arrays
+
+
+
+===========================================================
+[106] Variable name:Cloud_Phase_Optical_Properties
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[106.0]valid_range
+	[0, 4]
+[106.1]_FillValue
+	0
+[106.2]long_name
+	Cloud Phase Determination Used in Optical Thickness/Effective Radius Retrieval
+[106.3]units
+	none
+[106.4]scale_factor
+	1.0
+[106.5]add_offset
+	0.0
+[106.6]Parameter_Type
+	Output
+[106.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[106.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[106.9]Geolocation_Pointer
+	External MODIS geolocation product
+[106.10]description
+	\n                                                                                  
+                                                                                    
+ The values in this SDS are set to mean the following:                              
+ 0 -- cloud mask undetermined                                                       
+ 1 -- clear sky                                                                     
+ 2 -- liquid water cloud                                                            
+ 3 -- ice cloud                                                                     
+ 4 -- undetermined phase cloud (but retrieval is attempted as  liquid water)        
+
+
+
+
+===========================================================
+[107] Variable name:Cloud_Multi_Layer_Flag
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[107.0]valid_range
+	[0, 9]
+[107.1]_FillValue
+	0
+[107.2]long_name
+	Cloud Multi Layer Identification From MODIS Shortwave Observations
+[107.3]units
+	none
+[107.4]scale_factor
+	1.0
+[107.5]add_offset
+	0.0
+[107.6]Parameter_Type
+	Output
+[107.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[107.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[107.9]Geolocation_Pointer
+	External MODIS geolocation product
+[107.10]description
+	\n                                                                                  
+                                                                                    
+ Flag for multi-layer multi-phase cloud situations. Values 2 through 9              
+ indicate the success of various multi-layer cloud tests. Value of 0                
+ indicates no retrieval, value of 1 indicates single layer cloud. The               
+ other values are of increasing confidence level.                                   
+
+
+
+
+===========================================================
+[108] Variable name:Cirrus_Reflectance
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[108.0]valid_range
+	[0, 8000]
+[108.1]_FillValue
+	-9999
+[108.2]long_name
+	Cirrus Reflectance
+[108.3]units
+	none
+[108.4]scale_factor
+	0.00019999999494757503
+[108.5]add_offset
+	0.0
+[108.6]Parameter_Type
+	Output
+[108.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[108.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[108.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[109] Variable name:Cirrus_Reflectance_Flag
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354}
+===========================================================
+[109.0]valid_range
+	[0, 3]
+[109.1]_FillValue
+	-99
+[109.2]long_name
+	Cirrus Reflectance Flag
+[109.3]units
+	none
+[109.4]scale_factor
+	1.0
+[109.5]add_offset
+	0.0
+[109.6]Parameter_Type
+	Output
+[109.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[109.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[109.9]Geolocation_Pointer
+	External MODIS geolocation product
+[109.10]description
+	0: bad data, 1: non-cirrus pixel, 2: cirrus pixel, 3: contrail pixel                
+
+
+
+
+===========================================================
+[110] Variable name:Cloud_Mask_5km
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270, 'Cloud_Mask_5km_Num_Bytes:mod06': 2}
+===========================================================
+[110.0]valid_range
+	[0, -1]
+[110.1]_FillValue
+	0
+[110.2]long_name
+	First Byte of MODIS Cloud Mask Plus Additional Stats for L3 (2nd Byte)
+[110.3]units
+	none
+[110.4]scale_factor
+	1.0
+[110.5]add_offset
+	0.0
+[110.6]Parameter_Type
+	MODIS Input
+[110.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[110.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[110.9]Geolocation_Pointer
+	Internal geolocation arrays
+[110.10]description
+	\n                                                                                  
+                                                                                    
+ Bit fields within each byte are numbered from the left:                            
+ 7, 6, 5, 4, 3, 2, 1, 0.                                                            
+ The left-most bit (bit 7) is the most significant bit.                             
+ The right-most bit (bit 0) is the least significant bit.                           
+                                                                                    
+ First Byte                                                                         
+                                                                                    
+ bit field       Description                             Key                        
+ ---------       -----------                             ---                        
+                                                                                    
+ 0               Cloud Mask Flag                      0 = Not  determined           
+                                                      1 = Determined                
+                                                                                    
+ 2, 1            Unobstructed FOV Quality Flag        00 = Cloudy                   
+                                                      01 = Uncertain                
+                                                      10 = Probably  Clear          
+                                                      11 = Confident  Clear         
+                 PROCESSING PATH                                                    
+                 ---------------                                                    
+ 3               Day or Night Path                    0 = Night  / 1 = Day          
+ 4               Sunglint Path                        0 = Yes    / 1 = No           
+ 5               Snow/Ice Background Path             0 = Yes    / 1 = No           
+ 7, 6            Land or Water Path                   00 = Water                    
+                                                      01 = Coastal                  
+                                                      10 = Desert                   
+                                                      11 = Land                     
+                                                                                    
+ Second Byte                                                                        
+--------------------------------------------------------------------------          
+                                                                                    
+ 1, 0            Sun-glint Under CTP Retrieval        00 = No CTP Ret.              
+                                                      01 = No Sun-glint             
+                                                      10 = Sun-glint                
+                                                                                    
+ 3, 2            Snow/Ice Under CTP Retrieval         00 = No CTP Ret.              
+                                                      01 = No Snow/Ice              
+                                                      10 = Snow/Ice                 
+                                                                                    
+ 6, 5, 4         Surface Type Under CTP Retrieval    000 = No CTP Ret.              
+                                                     001 = Water                    
+                                                     010 = Coast                    
+                                                     011 = Desert                   
+                                                     100 = Land                     
+                                                     101 = Other                    
+                                                                                    
+ 7               Day/Night Flag Under CTP Retrieval   01 = Day                      
+                                                                                    
+
+
+
+
+===========================================================
+[111] Variable name:Quality_Assurance_5km
+{'Cell_Along_Swath_5km:mod06': 406, 'Cell_Across_Swath_5km:mod06': 270, 'QA_Parameter_5km:mod06': 10}
+===========================================================
+[111.0]valid_range
+	[0, -1]
+[111.1]_FillValue
+	0
+[111.2]long_name
+	Quality Assurance at 5x5 Resolution
+[111.3]units
+	none
+[111.4]scale_factor
+	1.0
+[111.5]add_offset
+	0.0
+[111.6]Parameter_Type
+	Output
+[111.7]Cell_Along_Swath_Sampling
+	[3, 2028, 5]
+[111.8]Cell_Across_Swath_Sampling
+	[3, 1348, 5]
+[111.9]Geolocation_Pointer
+	Internal geolocation arrays
+[111.10]description
+	See MODIS atmosphere QA plan for details                                            
+
+
+
+
+===========================================================
+[112] Variable name:Cloud_Mask_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'Cloud_Mask_1km_Num_Bytes:mod06': 2}
+===========================================================
+[112.0]valid_range
+	[0, -1]
+[112.1]_FillValue
+	0
+[112.2]long_name
+	MODIS Cloud Mask, L2 MOD06 QA Plan
+[112.3]units
+	none
+[112.4]scale_factor
+	1.0
+[112.5]add_offset
+	0.0
+[112.6]Parameter_Type
+	MODIS Input
+[112.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[112.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[112.9]Geolocation_Pointer
+	External MODIS geolocation product
+[112.10]description
+	See MODIS atmosphere QA plan for details                                            
+
+
+
+
+===========================================================
+[113] Variable name:Extinction_Efficiency_Ice
+{'RadTran_NRE_Ice:mod06': 12, 'RadTran_NWL:mod06': 7}
+===========================================================
+[113.0]valid_range
+	[0.0, 1.0]
+[113.1]_FillValue
+	0.0
+[113.2]long_name
+	Ice Extinction Efficiency from the phase functions used to generate  the forward lookup tables
+[113.3]units
+	none
+[113.4]scale_factor
+	1.0
+[113.5]add_offset
+	0.0
+[113.6]Parameter_Type
+	MODIS Input
+[113.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[113.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[113.9]Geolocation_Pointer
+	Geolocation product not applicable
+[113.10]description
+	Ice CE from the phase functions used to generate the forward lookup tables          
+
+
+
+
+===========================================================
+[114] Variable name:Asymmetry_Parameter_Ice
+{'RadTran_NRE_Ice:mod06': 12, 'RadTran_NWL:mod06': 7}
+===========================================================
+[114.0]valid_range
+	[0.0, 1.0]
+[114.1]_FillValue
+	0.0
+[114.2]long_name
+	Ice Asymmetry Parameter from the phase functions used to generate  the forward lookup tables
+[114.3]units
+	none
+[114.4]scale_factor
+	1.0
+[114.5]add_offset
+	0.0
+[114.6]Parameter_Type
+	MODIS Input
+[114.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[114.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[114.9]Geolocation_Pointer
+	Geolocation product not applicable
+[114.10]description
+	Ice Asymmetry Parameter from the phase functions used to generate the forward lookup
+
+
+
+
+===========================================================
+[115] Variable name:Single_Scatter_Albedo_Ice
+{'RadTran_NRE_Ice:mod06': 12, 'RadTran_NWL:mod06': 7}
+===========================================================
+[115.0]valid_range
+	[0.0, 1.0]
+[115.1]_FillValue
+	0.0
+[115.2]long_name
+	Ice single scatter albedo from the phase functions used to generate  the forward lookup tables
+[115.3]units
+	none
+[115.4]scale_factor
+	1.0
+[115.5]add_offset
+	0.0
+[115.6]Parameter_Type
+	MODIS Input
+[115.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[115.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[115.9]Geolocation_Pointer
+	Geolocation product not applicable
+[115.10]description
+	Ice single scatter albedo from the phase functions used to generate the forward look
+
+
+
+
+===========================================================
+[116] Variable name:Extinction_Efficiency_Liq
+{'RadTran_NRE_Liq:mod06': 18, 'RadTran_NWL:mod06': 7}
+===========================================================
+[116.0]valid_range
+	[0.0, 1.0]
+[116.1]_FillValue
+	0.0
+[116.2]long_name
+	Liquid Water CE from the phase functions used to generate the forward lookup tables
+[116.3]units
+	none
+[116.4]scale_factor
+	1.0
+[116.5]add_offset
+	0.0
+[116.6]Parameter_Type
+	MODIS Input
+[116.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[116.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[116.9]Geolocation_Pointer
+	Geolocation product not applicable
+[116.10]description
+	Liquid Water CE from the phase functions used to generate the forward lookup tables 
+
+
+
+
+===========================================================
+[117] Variable name:Asymmetry_Parameter_Liq
+{'RadTran_NRE_Liq:mod06': 18, 'RadTran_NWL:mod06': 7}
+===========================================================
+[117.0]valid_range
+	[0.0, 1.0]
+[117.1]_FillValue
+	0.0
+[117.2]long_name
+	Liquid Water Asymmetry Parameter from the phase functions used  to generate the forward lookup tables
+[117.3]units
+	none
+[117.4]scale_factor
+	1.0
+[117.5]add_offset
+	0.0
+[117.6]Parameter_Type
+	MODIS Input
+[117.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[117.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[117.9]Geolocation_Pointer
+	Geolocation product not applicable
+[117.10]description
+	Liquid Water Asymmetry Parameter from the phase functions used to generate the forwa
+
+
+
+
+===========================================================
+[118] Variable name:Single_Scatter_Albedo_Liq
+{'RadTran_NRE_Liq:mod06': 18, 'RadTran_NWL:mod06': 7}
+===========================================================
+[118.0]valid_range
+	[0.0, 1.0]
+[118.1]_FillValue
+	0.0
+[118.2]long_name
+	Liquid Water single scatter albedo from the phase functions used  to generate the forward lookup tables
+[118.3]units
+	none
+[118.4]scale_factor
+	1.0
+[118.5]add_offset
+	0.0
+[118.6]Parameter_Type
+	MODIS Input
+[118.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[118.8]Cell_Across_Swath_Sampling
+	[1, 7, 1]
+[118.9]Geolocation_Pointer
+	Geolocation product not applicable
+[118.10]description
+	Liquid Water SSA from the phase functions used to generate the forward lookup tables
+
+
+
+
+===========================================================
+[119] Variable name:Cloud_Mask_SPI
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'SPI_nband:mod06': 2}
+===========================================================
+[119.0]valid_range
+	[0, 20000]
+[119.1]_FillValue
+	-9999
+[119.2]long_name
+	Dispersion in bands 1 (plane 1) and 2 (plane 2) from 250m reflectance  statistics of cloud mask
+[119.3]units
+	percent
+[119.4]scale_factor
+	0.009999999776482582
+[119.5]add_offset
+	0.0
+[119.6]Parameter_Type
+	Output
+[119.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[119.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[119.9]Geolocation_Pointer
+	External MODIS geolocation product
+
+
+
+===========================================================
+[120] Variable name:Retrieval_Failure_Metric
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'RFM_nband:mod06': 3}
+===========================================================
+[120.0]valid_range
+	[0, 20000]
+[120.1]_FillValue
+	-9999
+[120.2]long_name
+	Retrievals and other information for points that failed to retrievevia standard solution logic for retrieval using band 7 and either band 1, 2, or 5 (specified in Quality_Assurance_1km)
+[120.3]units
+	by plane in order: 1-none, 2-micron, 3-percent
+[120.4]scale_factor
+	0.009999999776482582
+[120.5]add_offset
+	0.0
+[120.6]Parameter_Type
+	Output
+[120.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[120.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[120.9]Geolocation_Pointer
+	External MODIS geolocation product
+[120.10]description
+	\n                                                                                  
+                                                                                    
+ The individual planes in this SDS are set to contain the following:                
+ 1 -- Cloud Optical Thickness                                                       
+ 2 -- Cloud Effective Radius                                                        
+ 3 -- Relative distance of failed retrieval from the library space as               
+      percentage of reflectance                                                     
+
+
+
+
+===========================================================
+[121] Variable name:Retrieval_Failure_Metric_16
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'RFM_nband:mod06': 3}
+===========================================================
+[121.0]valid_range
+	[0, 20000]
+[121.1]_FillValue
+	-9999
+[121.2]long_name
+	Retrievals and other information for points that failed to retrievevia standard solution logic for retrieval using band 6 and either band 1, 2, or 5 (specified in Quality_Assurance_1km)
+[121.3]units
+	by plane in order: 1-none, 2-micron, 3-percent
+[121.4]scale_factor
+	0.009999999776482582
+[121.5]add_offset
+	0.0
+[121.6]Parameter_Type
+	Output
+[121.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[121.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[121.9]Geolocation_Pointer
+	External MODIS geolocation product
+[121.10]description
+	\n                                                                                  
+                                                                                    
+ The individual planes in this SDS are set to contain the following:                
+ 1 -- Cloud Optical Thickness                                                       
+ 2 -- Cloud Effective Radius                                                        
+ 3 -- Relative distance of failed retrieval from the library space as               
+      percentage of reflectance                                                     
+
+
+
+
+===========================================================
+[122] Variable name:Retrieval_Failure_Metric_37
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'RFM_nband:mod06': 3}
+===========================================================
+[122.0]valid_range
+	[0, 20000]
+[122.1]_FillValue
+	-9999
+[122.2]long_name
+	Retrievals and other information for points that failed to retrievevia standard solution logic for retrieval using band 20 and either band 1, 2, or 5 (specified in Quality_Assurance_1km)
+[122.3]units
+	by plane in order: 1-none, 2-micron, 3-percent
+[122.4]scale_factor
+	0.009999999776482582
+[122.5]add_offset
+	0.0
+[122.6]Parameter_Type
+	Output
+[122.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[122.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[122.9]Geolocation_Pointer
+	External MODIS geolocation product
+[122.10]description
+	\n                                                                                  
+                                                                                    
+ The individual planes in this SDS are set to contain the following:                
+ 1 -- Cloud Optical Thickness                                                       
+ 2 -- Cloud Effective Radius                                                        
+ 3 -- Relative distance of failed retrieval from the library space as               
+      percentage of reflectance                                                     
+
+
+
+
+===========================================================
+[123] Variable name:Retrieval_Failure_Metric_1621
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'RFM_nband:mod06': 3}
+===========================================================
+[123.0]valid_range
+	[0, 20000]
+[123.1]_FillValue
+	-9999
+[123.2]long_name
+	Retrievals and other information for points that failed to retrievevia standard solution logic for retrieval using band 6 and band 7
+[123.3]units
+	by plane in order: 1-none, 2-micron, 3-percent
+[123.4]scale_factor
+	0.009999999776482582
+[123.5]add_offset
+	0.0
+[123.6]Parameter_Type
+	Output
+[123.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[123.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[123.9]Geolocation_Pointer
+	External MODIS geolocation product
+[123.10]description
+	\n                                                                                  
+                                                                                    
+ The individual planes in this SDS are set to contain the following:                
+ 1 -- Cloud Optical Thickness                                                       
+ 2 -- Cloud Effective Radius                                                        
+ 3 -- Relative distance of failed retrieval from the library space as               
+      percentage of reflectance                                                     
+
+
+
+
+===========================================================
+[124] Variable name:Atm_Corr_Refl
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'ACR_nband:mod06': 6}
+===========================================================
+[124.0]valid_range
+	[0, 16000]
+[124.1]_FillValue
+	-9999
+[124.2]long_name
+	Atmospherically corrected reflectance used during cloud optical  and microphysical properties retrieval
+[124.3]units
+	none
+[124.4]scale_factor
+	9.999999747378752e-05
+[124.5]add_offset
+	0.0
+[124.6]Parameter_Type
+	Output
+[124.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[124.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[124.9]Geolocation_Pointer
+	External MODIS geolocation product
+[124.10]description
+	\n                                                                                  
+                                                                                    
+ The individual planes in this SDS are set to contain the following:                
+ 1 -- 0.65um (Rayleigh correction amount is based on 2.1um cloud                    
+      effecive radius retrieval)                                                    
+ 2 -- 0.86um                                                                        
+ 3 -- 1.2um                                                                         
+ 4 -- 1.6um                                                                         
+ 5 -- 2.1um                                                                         
+ 6 -- 3.7um                                                                         
+
+
+
+
+===========================================================
+[125] Variable name:Quality_Assurance_1km
+{'Cell_Along_Swath_1km:mod06': 2030, 'Cell_Across_Swath_1km:mod06': 1354, 'QA_Parameter_1km:mod06': 9}
+===========================================================
+[125.0]valid_range
+	[0, -1]
+[125.1]_FillValue
+	0
+[125.2]long_name
+	Quality Assurance at 1x1 Resolution
+[125.3]units
+	none
+[125.4]scale_factor
+	1.0
+[125.5]add_offset
+	0.0
+[125.6]Parameter_Type
+	Output
+[125.7]Cell_Along_Swath_Sampling
+	[1, 2030, 1]
+[125.8]Cell_Across_Swath_Sampling
+	[1, 1354, 1]
+[125.9]Geolocation_Pointer
+	External MODIS geolocation product
+[125.10]description
+	\n                                                                                  
+                                                                                    
+Quality Assurance 1km reports on Cloud Optical Properties                           
+algorithm performance.  Refer to MOD_PR06OD User Documentation and the              
+MODIS atmosphere QA plan for complete descriptions and coding examples.             
+                                                                                    
+ Bit fields within each byte are numbered from the left:                            
+ 7, 6, 5, 4, 3, 2, 1, 0.                                                            
+ The left-most bit (bit 7) is the most significant bit.                             
+ The right-most bit (bit 0) is the least significant bit.                           
+                                                                                    
+                                                                                    
+ Byte 0 -----------------------------------------------------------------           
+  0   VNSWIR-2.1 Optical Thickness General QA       0 = Not Useful                  
+                                                    1 = Useful                      
+  2,1  VNSWIR-2.1 Optical Thickness Confidence QA   00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+  4,3  Surface type used by the OD code        00 = ice-free ocean                  
+                                               01 = ice covered ocean               
+                                               10 = snow-free land                  
+                                               11 = snow covered land               
+  5   VNSWIR-2.1 Effective Radius General QA        0 = Not Useful                  
+                                                    1 = Useful                      
+  7,6 VNSWIR-2.1 Effective Radius Confidence QA     00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+ Byte 1 -----------------------------------------------------------------           
+  0   VNSWIR-2.1 Liquid Water Path General QA       0 = Not Useful                  
+                                                    1 = Useful                      
+  2,1 VNSWIR-2.1 Liquid Water Path Confidence QA    00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+  5,4,3          Retrieval Phase                    000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  6              1.6- 2.1 Retrieval Outcome          0 = Failed/No attempt          
+                                                    1 = Successful                  
+ Byte 2 -----------------------------------------------------------------           
+  2,1,0          Retrieval Phase                    000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  3           VNSWIR- 2.1 Retrieval Outcome          0 = Failed/No attempt          
+                                                    1 = Successful                  
+  4              Rayleigh Correction                0 = No Correction               
+                                                    1 = Correction                  
+  5              Water Vapor Correction             0 = No Correction               
+                                                    1 = Correction                  
+  7,6            Band Used for Optical Thickness Retrieval                          
+                                                    00 = No attempt                 
+                                                    01 = .645 micron                
+                                                    10 = .858 micron                
+                                                    11 = 1.24 micron                
+ Byte 3 -----------------------------------------------------------------           
+  0           Optical Thickness 1.6-2.1 General QA  0 = Not Useful                  
+                                                    1 = Useful                      
+  2,1         Optical Thickness 1.6-2.1 Condifence QA                               
+                                                    00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+  3           Effective Radius 1.6-2.1 General QA   0 = Not Useful                  
+                                                    1 = Useful                      
+  5,4         Effective Radius 1.6-2.1 Confidence QA                                
+                                                    00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+  7,6            Clear Sky Restoral Type QA                                         
+                                       00 = Not Restored                            
+                                       01 = Restored Via Edge detection             
+                                       10 = Restored Via Spatial  Variance          
+                                       11 = Restored Via 250m Tests                 
+ Byte 4 -----------------------------------------------------------------           
+  0           Water Path 1.6-2.1 General QA         0 = Not Useful                  
+                                                    1 = Useful                      
+  2,1         Water Path 1.6-2.1 Confidence QA      00 = No confidence              
+                                                    01 = Marginal                   
+                                                    10 = Good                       
+                                                    11 = Very Good                  
+  5,4,3          Multi Layer Cloud Flag      000 = Cloud Mask Undet                 
+                                             001 = Decision tree stop               
+                                             010 = single layer: water              
+                                             011 = multi layer: water               
+                                             100 = single layer: ice                
+                                             101 = multi layer: ice                 
+                                             110 = single layer:  unknown           
+                                             111 = multi layer: unknown             
+  7,6            spare                                                              
+ Byte 5 -----------------------------------------------------------------           
+  0              Phase difference multilayer test result                            
+  1              Delta precipitable water multilayer test result                    
+  2              Delta precipitable water at 900mb multilayer  test result          
+  3              Tau difference VNSWIR-SWIR multilayer test result                  
+  4              Pavolonis-Heidinger multilayer test result                         
+  7,6,5            spare                                                            
+ Byte 6 -----------------------------------------------------------------           
+  2,1,0        Retrieval Phase                      000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  3            VNSWIR- 1.6 Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+  6,5,4    Retrieval Phase                          000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  7        VNSWIR- 1.6 PCL Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+ Byte 7 -----------------------------------------------------------------           
+  2,1,0        Retrieval Phase                      000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  3            VNSWIR- 3.7 Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+  6,5,4    Retrieval Phase                          000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  7        VNSWIR- 3.7 PCL Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+ Byte 8 -----------------------------------------------------------------           
+  2,1,0          Retrieval Phase                    000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  3           1.6- 2.1 PCL Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+  6,5,4    Retrieval Phase                          000 = No Cloud Mask             
+                                                    001 = No Cloud                  
+                                                    010 = Water Cloud               
+                                                    011 = Ice Cloud                 
+                                                    100 = Unknown Cloud             
+  7        VNSWIR- 2.1 PCL Retrieval Outcome         0 = Failed/No attempt          
+                                                    1 = Successful                  
+
+
+
+
+===========================================================
+[126] Variable name:Statistics_1km_sds
+{'fakeDim17': 17}
+===========================================================
+[126.0]long_name
+	Granule Statistics for parameters at 1x1 resolution
+[126.1]units
+	see description attribute
+[126.2]_FillValue
+	-999.0
+[126.3]description
+	                                                                                    
+Statistics_1km:                                                                     
+  1. Successful Retrieval Rate (%)                                                  
+  2. Land Cover Fraction (%)                                                        
+  3. Water Cover Fraction (%)                                                       
+  4. Snow Cover Fraction (%)                                                        
+  5. Cloud Cover Fraction (%)                                                       
+  6. Water Cloud Detected (%)                                                       
+  7. Ice Cloud Detected (%)                                                         
+  8. Mean of Water Cloud Optical Thickness                                          
+  9. Mean of Ice Cloud Optical Thickness                                            
+  10. Mean of Water Cloud Effective Particle Radius (microns)                       
+  11. Mean of Ice Cloud Effective Diameter (microns)                                
+  12. Mean Liquid Water Cloud Top Pressure (mb)                                     
+  13. Mean Ice Cloud Top Pressure (mb)                                              
+  14. Mean Undetermined Cloud Top Pressure (mb)                                     
+  15. Mean Liquid Water Cloud Top Temperature (K)                                   
+  16. Mean Ice Cloud Top Temperature (K)                                            
+  17. Mean Undetermined Cloud Top Temperature (K)                                   
+
+
+
+

@@ -1,0 +1,631 @@
+/Users/crajapak/pace/oci_cloud_validations/data/MOD06_L2/Y2018/MOD03/MOD03/2018/213/MOD03.A2018213.0000.061.2018213080654.hdf
+Number of variables: 46
+Key list
+[0]Latitude
+[1]Longitude
+[2]Scan Offset
+[3]Track Offset
+[4]Height Offset
+[5]Height
+[6]SensorZenith
+[7]SensorAzimuth
+[8]Range
+[9]SolarZenith
+[10]SolarAzimuth
+[11]Land/SeaMask
+[12]WaterPresent
+[13]gflags
+[14]Scan number
+[15]EV frames
+[16]SD frames
+[17]SV frames
+[18]EV start time
+[19]SD start time
+[20]SV start time
+[21]EV center time
+[22]Mirror side
+[23]SD Sun zenith
+[24]SD Sun azimuth
+[25]Moon Vector
+[26]L1 scan quality
+[27]Geo scan quality
+[28]orb_pos
+[29]orb_vel
+[30]T_inst2ECR
+[31]attitude_angles
+[32]sun_ref
+[33]num_impulse
+[34]impulse_enc
+[35]impulse_time
+[36]Scan Type
+[37]thermal_correction
+[38]attitude_quality
+[39]ephemeris_quality
+[40]Focal_length
+[41]band_position
+[42]detector_space
+[43]detector_offsets
+[44]T_offset
+[45]num_samples
+===========================================================
+[0] Variable name:Latitude
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[0.0]units
+	degrees
+[0.1]valid_range
+	[-90.0, 90.0]
+[0.2]_FillValue
+	-999.0
+
+
+
+===========================================================
+[1] Variable name:Longitude
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[1.0]units
+	degrees
+[1.1]valid_range
+	[-180.0, 180.0]
+[1.2]_FillValue
+	-999.0
+
+
+
+===========================================================
+[2] Variable name:Scan Offset
+{'nscans*20:MODIS_Swath_Type_GEO': 4060, 'mframes*2:MODIS_Swath_Type_GEO': 2708}
+===========================================================
+[2.0]units
+	km IFOV
+[2.1]valid_range
+	[-127, 127]
+[2.2]_FillValue
+	-128
+[2.3]scale_factor
+	0.006
+
+
+
+===========================================================
+[3] Variable name:Track Offset
+{'nscans*20:MODIS_Swath_Type_GEO': 4060, 'mframes*2:MODIS_Swath_Type_GEO': 2708}
+===========================================================
+[3.0]units
+	km IFOV
+[3.1]valid_range
+	[-127, 127]
+[3.2]_FillValue
+	-128
+[3.3]scale_factor
+	0.006
+
+
+
+===========================================================
+[4] Variable name:Height Offset
+{'nscans*20:MODIS_Swath_Type_GEO': 4060, 'mframes*2:MODIS_Swath_Type_GEO': 2708}
+===========================================================
+[4.0]units
+	km
+[4.1]valid_range
+	[-127, 127]
+[4.2]_FillValue
+	-128
+[4.3]scale_factor
+	0.006
+
+
+
+===========================================================
+[5] Variable name:Height
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[5.0]units
+	meters
+[5.1]valid_range
+	[-400, 10000]
+[5.2]_FillValue
+	-32767
+
+
+
+===========================================================
+[6] Variable name:SensorZenith
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[6.0]units
+	degrees
+[6.1]valid_range
+	[0, 18000]
+[6.2]_FillValue
+	-32767
+[6.3]scale_factor
+	0.01
+
+
+
+===========================================================
+[7] Variable name:SensorAzimuth
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[7.0]units
+	degrees
+[7.1]valid_range
+	[-18000, 18000]
+[7.2]_FillValue
+	-32767
+[7.3]scale_factor
+	0.01
+
+
+
+===========================================================
+[8] Variable name:Range
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[8.0]units
+	meters
+[8.1]valid_range
+	[27000, 65535]
+[8.2]_FillValue
+	0
+[8.3]scale_factor
+	25.0
+
+
+
+===========================================================
+[9] Variable name:SolarZenith
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[9.0]units
+	degrees
+[9.1]valid_range
+	[0, 18000]
+[9.2]_FillValue
+	-32767
+[9.3]scale_factor
+	0.01
+
+
+
+===========================================================
+[10] Variable name:SolarAzimuth
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[10.0]units
+	degrees
+[10.1]valid_range
+	[-18000, 18000]
+[10.2]_FillValue
+	-32767
+[10.3]scale_factor
+	0.01
+
+
+
+===========================================================
+[11] Variable name:Land/SeaMask
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[11.0]valid_range
+	[0, 7]
+[11.1]_FillValue
+	221
+
+
+
+===========================================================
+[12] Variable name:WaterPresent
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[12.0]valid_range
+	[0, 8]
+[12.1]_FillValue
+	255
+
+
+
+===========================================================
+[13] Variable name:gflags
+{'nscans*10:MODIS_Swath_Type_GEO': 2030, 'mframes:MODIS_Swath_Type_GEO': 1354}
+===========================================================
+[13.0]_FillValue
+	255
+
+
+
+===========================================================
+[14] Variable name:Scan number
+{'nscans': 203}
+===========================================================
+[14.0]_FillValue
+	0
+
+
+
+===========================================================
+[15] Variable name:EV frames
+{'nscans': 203}
+===========================================================
+[15.0]valid_range
+	[0, 1400]
+
+
+
+===========================================================
+[16] Variable name:SD frames
+{'nscans': 203}
+===========================================================
+
+
+
+===========================================================
+[17] Variable name:SV frames
+{'nscans': 203}
+===========================================================
+
+
+
+===========================================================
+[18] Variable name:EV start time
+{'nscans': 203}
+===========================================================
+[18.0]units
+	seconds
+[18.1]_FillValue
+	-2000000000.0
+
+
+
+===========================================================
+[19] Variable name:SD start time
+{'nscans': 203}
+===========================================================
+[19.0]units
+	seconds
+[19.1]_FillValue
+	-2000000000.0
+
+
+
+===========================================================
+[20] Variable name:SV start time
+{'nscans': 203}
+===========================================================
+[20.0]units
+	seconds
+[20.1]_FillValue
+	-2000000000.0
+
+
+
+===========================================================
+[21] Variable name:EV center time
+{'nscans': 203}
+===========================================================
+[21.0]units
+	seconds
+[21.1]_FillValue
+	-2000000000.0
+
+
+
+===========================================================
+[22] Variable name:Mirror side
+{'nscans': 203}
+===========================================================
+[22.0]valid_range
+	[0, 1]
+[22.1]_FillValue
+	65535
+
+
+
+===========================================================
+[23] Variable name:SD Sun zenith
+{'nscans': 203}
+===========================================================
+[23.0]units
+	radians
+[23.1]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[24] Variable name:SD Sun azimuth
+{'nscans': 203}
+===========================================================
+[24.0]units
+	radians
+[24.1]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[25] Variable name:Moon Vector
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[25.0]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[26] Variable name:L1 scan quality
+{'nscans': 203, 'numqual': 4}
+===========================================================
+[26.0]_FillValue
+	-1
+
+
+
+===========================================================
+[27] Variable name:Geo scan quality
+{'nscans': 203, 'numqual': 4}
+===========================================================
+[27.0]_FillValue
+	-127
+
+
+
+===========================================================
+[28] Variable name:orb_pos
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[28.0]units
+	meters
+[28.1]valid_range
+	[-7200000.0, 7200000.0]
+[28.2]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[29] Variable name:orb_vel
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[29.0]units
+	meters per second
+[29.1]valid_range
+	[-7600.0, 7600.0]
+[29.2]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[30] Variable name:T_inst2ECR
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[30.0]valid_range
+	[-1.0, 1.0]
+[30.1]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[31] Variable name:attitude_angles
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[31.0]units
+	radians
+[31.1]_FillValue
+	9.969209968386869e+36
+[31.2]roll_element
+	0
+[31.3]pitch_element
+	1
+[31.4]yaw_element
+	2
+
+
+
+===========================================================
+[32] Variable name:sun_ref
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[32.0]valid_range
+	[-1.0, 1.0]
+[32.1]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[33] Variable name:num_impulse
+{'nscans': 203}
+===========================================================
+[33.0]valid_range
+	[0, 25]
+
+
+
+===========================================================
+[34] Variable name:impulse_enc
+{'nscans': 203, 'numenc': 25}
+===========================================================
+[34.0]units
+	encoder pulses
+[34.1]valid_range
+	[0.0, 16384.0]
+[34.2]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[35] Variable name:impulse_time
+{'nscans': 203, 'numenc': 25}
+===========================================================
+[35.0]units
+	seconds
+[35.1]valid_range
+	[0.0, 1.5]
+[35.2]_FillValue
+	9.969209968386869e+36
+
+
+
+===========================================================
+[36] Variable name:Scan Type
+{'nscans': 203, 'Scan Type': 10}
+===========================================================
+
+
+
+===========================================================
+[37] Variable name:thermal_correction
+{'nscans': 203, 'vecdim': 3}
+===========================================================
+[37.0]units
+	degrees
+[37.1]valid_range
+	[-180.0, 180.0]
+[37.2]_FillValue
+	-999.0
+[37.3]roll_element
+	0
+[37.4]pitch_element
+	1
+[37.5]yaw_element
+	2
+
+
+
+===========================================================
+[38] Variable name:attitude_quality
+{'nscans': 203, 'mframes': 1354}
+===========================================================
+[38.0]valid_range
+	[0, 20139]
+[38.1]_FillValue
+	4096
+[38.2]overall
+	1
+[38.3]data_summary
+	2
+[38.4]red_limit_low
+	4
+[38.5]yellow_limit_low
+	8
+[38.6]yellow_limit_high
+	16
+[38.7]red_limit_high
+	32
+[38.8]long_gap_follows
+	64
+[38.9]short_gap_follows
+	128
+[38.10]short_gap_precedes
+	256
+[38.11]long_gap_precedes
+	512
+[38.12]repaired_data_point
+	1024
+[38.13]quality_flag_problem
+	2048
+[38.14]interpolated_point
+	16384
+
+
+
+===========================================================
+[39] Variable name:ephemeris_quality
+{'nscans': 203, 'mframes': 1354}
+===========================================================
+[39.0]valid_range
+	[0, 18091]
+[39.1]_FillValue
+	4096
+[39.2]overall
+	1
+[39.3]data_summary
+	2
+[39.4]red_limit_low
+	4
+[39.5]yellow_limit_low
+	8
+[39.6]yellow_limit_high
+	16
+[39.7]red_limit_high
+	32
+[39.8]long_gap_follows
+	64
+[39.9]short_gap_follows
+	128
+[39.10]short_gap_precedes
+	256
+[39.11]long_gap_precedes
+	512
+[39.12]repaired_data_point
+	1024
+[39.13]quality_flag_problem
+	2048
+[39.14]interpolated_point
+	16384
+
+
+
+===========================================================
+[40] Variable name:Focal_length
+{'numbands': 37}
+===========================================================
+[40.0]units
+	meters
+
+
+
+===========================================================
+[41] Variable name:band_position
+{'numbands': 37}
+===========================================================
+[41.0]units
+	frame sample time
+
+
+
+===========================================================
+[42] Variable name:detector_space
+{'numbands': 37}
+===========================================================
+[42.0]units
+	meters
+
+
+
+===========================================================
+[43] Variable name:detector_offsets
+{'numbands': 37, 'fakeDim11': 2}
+===========================================================
+[43.0]units
+	meters
+[43.1]scandim
+	0
+[43.2]trackdim
+	1
+
+
+
+===========================================================
+[44] Variable name:T_offset
+{'numbands': 37}
+===========================================================
+[44.0]units
+	frame sample time
+
+
+
+===========================================================
+[45] Variable name:num_samples
+{'numbands': 37}
+===========================================================
+
+
+
