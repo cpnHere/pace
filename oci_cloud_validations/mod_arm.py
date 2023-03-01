@@ -11,6 +11,7 @@ import time,sys,os,glob
 from pyhdf.SD import SD,SDC
 import pandas as pd
 from calendar import monthrange
+import datetime as dtm
 from cpnCommonlib import vprint, progress_bar, haversine
 from cpnMODISlib import readvalue, get_doy
 
@@ -21,6 +22,9 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
     mn: month
     e_max: maximum number of data entries per month (assuming max three MODIS granules per day)
     """
+    paths ={'mod06':'data/modis/MOD06_L2/region-100_34_-95_39/%d'%yr,\
+            'mod03':'data/modis/MOD03/region-100_34_-95_39/%d'%yr,\
+            'arm'  :'data/arm/MWRRET/%d/ascii-csv'%yr}
     out_d = {'year'      :np.zeros(e_max,dtype=int),'doy':np.zeros(90,dtype=int),\
              'mod_time'  :np.zeros(e_max,dtype=float),\
              'mod_cwp'   :np.zeros(e_max,dtype=float),\
@@ -28,18 +32,19 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
              'arm_time'  :np.zeros(e_max,dtype=float),\
              'arm_cwp'   :np.zeros(e_max,dtype=float),\
              'arm_cwp_un':np.zeros(e_max,dtype=float)} # output data
-    out_file = "data/MOD06_L2-arm_MWRRET_-99_34_-95_38_%d%02d.csv"%(yr,mn) # output file name
+    out_file = "data/outputs/MOD06_L2-arm_MWRRET_-100_34_-95_39_%d%02d.csv"%(yr,mn) # output file name
     t0 = time.time()
     e_i = 0 #data entry row index
     n_d = monthrange(yr,mn)[1]
+    N = 0 # for number of processed files test
     for i in np.arange(1,n_d+1,1):
         hdf = {}
         doy = get_doy(yr,mn,i)
-        for m6_file in glob.glob('data/modis/MOD06_L2/MOD06_L2.A%d%02d.????.061.?????????????.hdf'%(yr,doy)):
+        for m6_file in glob.glob(paths['mod06']+'/MOD06_L2.A%d%03d.????.061.?????????????.hdf'%(yr,doy)):
             tm_s = m6_file.split('/',)[-1].split('.')[2] # time string ex. '1745'
             mo06_f = m6_file
-            mo03_f = glob.glob('data/modis/MOD03/MOD03.A%d%02d.%s.061.?????????????.hdf'%(yr,doy,tm_s))[0]
-            arm_f  = glob.glob('data/arm/MWRRET/ascii-csv/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.csv'%(yr,mn,i))[0]
+            mo03_f = glob.glob(paths['mod03']+'/MOD03.A%d%03d.%s.061.?????????????.hdf'%(yr,doy,tm_s))[0]
+            arm_f  = glob.glob(paths['arm']+'/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.custom.csv'%(yr,mn,i))[0]
             vprint("mo06_f: %s"%mo06_f,verbose)
             vprint("mo03_f: %s"%mo03_f,verbose)
             vprint("arm_f:  %s"%arm_f ,verbose)
@@ -69,11 +74,16 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             e_i += 1
             if e_i >= e_max:
                 print("ERROR! e_i exceeded e_max: %d"%e_max)
+            N += 1
         progress_bar(i,1,n_d,1,t0)
         vprint('',verbose)
-    out_d = pd.DataFrame.from_dict(out_d)
-    out_d = out_d.drop(index=list(np.arange(e_i,e_max,1)))
-    out_d.to_csv(out_file)
+    if N>0:
+        print()
+        out_d = pd.DataFrame.from_dict(out_d)
+        out_d = out_d.drop(index=list(np.arange(e_i,e_max,1)))
+        out_d.to_csv(out_file)
+    else:
+        print("ERROR! No files found!")
 if __name__ == '__main__':
     year  = int(sys.argv[1])
     month = int(sys.argv[2])
