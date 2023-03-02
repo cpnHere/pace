@@ -55,6 +55,7 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             #Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Water_Path result
             lat = hdf['mo03'].select('Latitude').get()
             lon = hdf['mo03'].select('Longitude').get()
+            sZA = readvalue(hdf['mo03'],'SensorZenith') # sensor zenith angle
             #finding closest lat-lon
             vprint("Warning!Altitude ingnored when finding in collocation",verbose)
             val = haversine(-97.485,36.605,lon.reshape(-1),lat.reshape(-1))
