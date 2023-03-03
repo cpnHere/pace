@@ -10,11 +10,25 @@ import numpy as np
 import time,sys,os,glob
 from pyhdf.SD import SD,SDC
 import pandas as pd
+import xarray as xr
 from calendar import monthrange
 import datetime as dtm
 from cpnCommonlib import vprint, progress_bar, haversine
 from cpnMODISlib import readvalue, get_doy
 
+def parallax_correction(_sZA,_sAA,_cth):
+    """
+    Perform correction for parallax effect
+    _sZA = sensor zenith angle
+    _sAA = sensor azimuth angle
+    _cth = cloud top height
+    """
+    dx = _cth*np.tan(np.deg2rad(_sZA))*np.sin(np.deg2rad(_sAA))
+    dy = _cth*np.tan(np.deg2rad(_sZA))*np.cos(np.deg2rad(_sAA))
+    R_e = 6371e3 # m Earth's radius in meters 
+    dLon = dx/R_e/np.cos(np.deg2rad(arm_lat)) #longitudinal displacement
+    dLat = dy/R_e #latitudinal displacement
+    return dLon,dLat
 def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
     """
     Collocate and save MOD06_L2 cloud water path (cwp) and ARM cwp
@@ -32,7 +46,8 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
              'arm_time'  :np.zeros(e_max,dtype=float),\
              'arm_cwp'   :np.zeros(e_max,dtype=float),\
              'arm_cwp_un':np.zeros(e_max,dtype=float)} # output data
-    out_file = "data/outputs/MOD06_L2-arm_MWRRET_-100_34_-95_39_%d%02d.csv"%(yr,mn) # output file name
+    arm_lon,arm_lat = -97.458,36.605 # longitude and latitude of the ground-based observation (ARM)
+    out_file = "data/outputs/MOD06_L2-arm_MWRRET_-100_34_-95_39_%d%02d_plx.csv"%(yr,mn) # output file name
     t0 = time.time()
     e_i = 0 #data entry row index
     n_d = monthrange(yr,mn)[1]
@@ -52,13 +67,25 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             hdf['mo03'] = SD(mo03_f,SDC.READ)
             cwp   = readvalue(hdf['mo06'],'Cloud_Water_Path') # g/m^2
             cwp_u = readvalue(hdf['mo06'],'Cloud_Water_Path_Uncertainty') # percent
+            cth   = readvalue(hdf['mo06'],'Cloud_Top_Height') # m (rounded to nearest 50m) 
+            m6_lat = hdf['mo06'].select('Latitude').get() # to get cth
+            m6_lon = hdf['mo06'].select('Longitude').get() # to get cth
             #Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Water_Path result
             lat = hdf['mo03'].select('Latitude').get()
             lon = hdf['mo03'].select('Longitude').get()
             sZA = readvalue(hdf['mo03'],'SensorZenith') # sensor zenith angle
+            sAA = readvalue(hdf['mo03'],'SensorAzimuth') # sensor azimuth angle
             #finding closest lat-lon
-            vprint("Warning!Altitude ingnored when finding in collocation",verbose)
-            val = haversine(-97.485,36.605,lon.reshape(-1),lat.reshape(-1))
+            vprint("Warning!Altitude ignored when finding in collocation",verbose)
+            val = haversine(arm_lon,arm_lat,lon.reshape(-1),lat.reshape(-1))
+            val_i = val.argmin() # selected value's index
+            _sZA = sZA.reshape(-1)[val_i]
+            _sAA = sAA.reshape(-1)[val_i]
+            _val = haversine(arm_lon,arm_lat,m6_lon.reshape(-1),m6_lat.reshape(-1))
+            _val_i = _val.argmin()
+            _cth = cth.reshape(-1)[_val_i]
+            dLon,dLat = parallax_correction(_sZA,_sAA,_cth)
+            val = haversine(arm_lon+dLon,arm_lat+dLat,lon.reshape(-1),lat.reshape(-1))
             val_i = val.argmin() # selected value's index
             arm = pd.read_csv(arm_f)
             mod_time = 60.*int(tm_s[0:2])+int(tm_s[2:]) #in minutes
