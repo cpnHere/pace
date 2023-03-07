@@ -16,17 +16,18 @@ import datetime as dtm
 from cpnCommonlib import vprint, progress_bar, haversine
 from cpnMODISlib import readvalue, get_doy
 
-def parallax_correction(_sZA,_sAA,_cth):
+def parallax_correction(_sZA,_sAA,_cth,_lat):
     """
     Perform correction for parallax effect
     _sZA = sensor zenith angle
     _sAA = sensor azimuth angle
     _cth = cloud top height
+    _lat = latitude of the considering location
     """
     dx = _cth*np.tan(np.deg2rad(_sZA))*np.sin(np.deg2rad(_sAA))
     dy = _cth*np.tan(np.deg2rad(_sZA))*np.cos(np.deg2rad(_sAA))
     R_e = 6371e3 # m Earth's radius in meters 
-    dLon = dx/R_e/np.cos(np.deg2rad(arm_lat)) #longitudinal displacement
+    dLon = dx/R_e/np.cos(np.deg2rad(_lat)) #longitudinal displacement
     dLat = dy/R_e #latitudinal displacement
     return dLon,dLat
 def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
@@ -73,8 +74,8 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             #Cloud Water Path Relative Uncertainty (Percent)from both best points and points identified as cloud edge at 1km resolution or partly cloudy at 250m based on the Cloud_Water_Path result
             lat = hdf['mo03'].select('Latitude').get()
             lon = hdf['mo03'].select('Longitude').get()
-            sZA = readvalue(hdf['mo03'],'SensorZenith') # sensor zenith angle
-            sAA = readvalue(hdf['mo03'],'SensorAzimuth') # sensor azimuth angle
+            sZA = readvalue(hdf['mo03'],'SensorZenith',verbose) # sensor zenith angle
+            sAA = readvalue(hdf['mo03'],'SensorAzimuth',verbose) # sensor azimuth angle
             #finding closest lat-lon
             vprint("Warning!Altitude ignored when finding in collocation",verbose)
             val = haversine(arm_lon,arm_lat,lon.reshape(-1),lat.reshape(-1))
@@ -84,7 +85,7 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             _val = haversine(arm_lon,arm_lat,m6_lon.reshape(-1),m6_lat.reshape(-1))
             _val_i = _val.argmin()
             _cth = cth.reshape(-1)[_val_i]
-            dLon,dLat = parallax_correction(_sZA,_sAA,_cth)
+            dLon,dLat = parallax_correction(_sZA,_sAA,_cth,arm_lat)
             val = haversine(arm_lon+dLon,arm_lat+dLat,lon.reshape(-1),lat.reshape(-1))
             val_i = val.argmin() # selected value's index
             arm = pd.read_csv(arm_f)
