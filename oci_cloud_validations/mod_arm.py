@@ -15,19 +15,21 @@ from calendar import monthrange
 import datetime as dtm
 from cpnCommonlib import vprint, progress_bar, haversine
 from cpnMODISlib import readvalue, get_doy
-
-def parallax_correction(_sZA,_sAA,_cth,_lat):
+from math import pi
+def parallax_correction(_sZA,_sAA,_cth,_lat,H=705e3,R_e = 6371e3):
     """
     Perform correction for parallax effect
     _sZA = sensor zenith angle
     _sAA = sensor azimuth angle
-    _cth = cloud top height
+    _cth = cloud top height in m
     _lat = latitude of the considering location
+    H    = MODIS terra height in m
+    R_e  = Earth radius in m
     """
-    dx = _cth*np.tan(np.deg2rad(_sZA))*np.sin(np.deg2rad(_sAA))
-    dy = _cth*np.tan(np.deg2rad(_sZA))*np.cos(np.deg2rad(_sAA))
-    R_e = 6371e3 # m Earth's radius in meters 
-    dLon = dx/R_e/np.cos(np.deg2rad(_lat)) #longitudinal displacement
+    tan_a = H*np.tan(_sZA/180.*pi/(H-_cth))
+    dx = _cth*tan_a*np.sin(_sAA/180.*pi)
+    dy = _cth*tan_a*np.cos(_sAA/180.*pi)
+    dLon = dx/R_e/np.cos(_lat/180.*pi) #longitudinal displacement
     dLat = dy/R_e #latitudinal displacement
     return dLon,dLat
 def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
@@ -63,8 +65,11 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             try:
                 arm_f  = glob.glob(paths['arm']+'/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.csv'%(yr,mn,i))[0]
             except Exception as e:
-                print(e)
-                continue
+                try:
+                    arm_f = glob.glob(paths['arm']+'/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.custom.csv'%(yr,mn,i))[0]
+                except Exception as e:
+                    print(e)
+                    continue
             vprint("mo06_f: %s"%mo06_f,verbose)
             vprint("mo03_f: %s"%mo03_f,verbose)
             vprint("arm_f:  %s"%arm_f ,verbose)
