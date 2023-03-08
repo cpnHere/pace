@@ -60,7 +60,11 @@ def mod06_l2_arm_mwrret(yr,mn,e_max=90,verbose=False):
             tm_s = m6_file.split('/',)[-1].split('.')[2] # time string ex. '1745'
             mo06_f = m6_file
             mo03_f = glob.glob(paths['mod03']+'/MOD03.A%d%03d.%s.061.?????????????.hdf'%(yr,doy,tm_s))[0]
-            arm_f  = glob.glob(paths['arm']+'/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.custom.csv'%(yr,mn,i))[0]
+            try:
+                arm_f  = glob.glob(paths['arm']+'/sgpmwrret1liljclouC1.c2.%d%02d%02d.??????.csv'%(yr,mn,i))[0]
+            except Exception as e:
+                print(e)
+                continue
             vprint("mo06_f: %s"%mo06_f,verbose)
             vprint("mo03_f: %s"%mo03_f,verbose)
             vprint("arm_f:  %s"%arm_f ,verbose)
